@@ -15,7 +15,7 @@ export function ImageUploadField({
   return (
     <div className={className}>
       {label && <Label id={id}>{label}</Label>}
-      <input id={id} type="file" accept=".jpg,.png" {...props} />
+      <input id={id} type="file" accept=".jpg,.jpeg,.png,.pdf" {...props} />
     </div>
   )
 }
