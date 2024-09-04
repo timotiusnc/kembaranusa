@@ -38,6 +38,9 @@ export default function Projects() {
               <h2 id="itinerary">
                 <a href="#itinerary">Itinerary</a>
               </h2>
+              <span className="text-red-500">
+                <i>Itinerary dapat berubah menyesuaikan kondisi</i>
+              </span>
               <Itinerary />
 
               <h2 id="flight">
@@ -265,17 +268,95 @@ const Itinerary = () => {
 
 const Flight = () => {
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Rute</th>
-          <th>Maskapai</th>
-          <th>Kode</th>
-          <th>Berangkat</th>
-          <th>Tiba</th>
-          <th>Harga</th>
-        </tr>
-      </thead>
-    </table>
+    <>
+      <h3>Berangkat</h3>
+      <h4>
+        <a
+          href="https://en.tiket.com/pesawat/search?d=CGK&a=TMC&date=2024-10-23&adult=1&child=0&infant=0&class=economy&dType=AIRPORT&aType=AIRPORT&dLabel=Jakarta&aLabel=Tambolaka&type=depart&flexiFare=true"
+          target="_blank"
+          rel="noopener"
+        >
+          Jakarta (CGK) - Tambolaka, Waikabubak (TMC) – 23 Oct 2024
+        </a>
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Rute</th>
+            <th>Maskapai</th>
+            <th>Kode</th>
+            <th>Berangkat</th>
+            <th>Tiba</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CGK - DPS</td>
+            <td>Super Air Jet</td>
+            <td>IU-756</td>
+            <td>06:30</td>
+            <td>09:20</td>
+            <td rowSpan={2} className="text-center align-middle">
+              IDR 2.099.062
+              <br />
+              bagasi 20 kg
+            </td>
+          </tr>
+          <tr>
+            <td>DPS-TMC</td>
+            <td>Wings Air</td>
+            <td>IW-1832</td>
+            <td>10:35</td>
+            <td>12:00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Kembali</h3>
+      <h4>
+        <a
+          href="https://en.tiket.com/pesawat/search?d=WGP&a=CGK&date=2024-10-27&adult=1&child=0&infant=0&class=economy&dType=AIRPORT&aType=AIRPORT&dLabel=Waingapu&aLabel=Jakarta&type=depart&flexiFare=true"
+          target="_blank"
+          rel="noopener"
+        >
+          Umbu Menhang Kunda / Mau Hau, Waingapu (WGP) - Jakarta (CGK) – 27 Oct
+          2024
+        </a>
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Rute</th>
+            <th>Maskapai</th>
+            <th>Kode</th>
+            <th>Berangkat</th>
+            <th>Tiba</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>WGP - DPS</td>
+            <td>Wings Air</td>
+            <td>IW-1885</td>
+            <td>06:35</td>
+            <td>08:15</td>
+            <td rowSpan={2} className="text-center align-middle">
+              IDR 3.721.060
+              <br />
+              bagasi 20 kg
+            </td>
+          </tr>
+          <tr>
+            <td>DPS-CGK</td>
+            <td>Super Air Jet</td>
+            <td>IU-751</td>
+            <td>09:00</td>
+            <td>09:45</td>
+          </tr>
+        </tbody>
+      </table>
+    </>
   )
 }
