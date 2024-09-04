@@ -1,3 +1,4 @@
+import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -15,7 +16,7 @@ export default function Projects() {
           <Container className="relative">
             <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
               <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
-                Bakti Sosial + Explore <br />
+                Bakti Sosial + Explore{' '}
                 <span className="text-red-400">Sumba</span>
               </h2>
               <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
@@ -29,6 +30,12 @@ export default function Projects() {
                 kesehatan gigi dan mulut. Bakti sosial ini memberikan sertifikat
                 Satuan Kredit Profesi (SKP) Kemenkes untuk dokter gigi.
               </p>
+
+              <div className="flex justify-center">
+                <Button color="blue" href="/register">
+                  Daftar Sekarang
+                </Button>
+              </div>
 
               <h2 id="lokasi">
                 <a href="#lokasi">Lokasi</a>

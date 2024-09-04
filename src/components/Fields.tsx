@@ -47,14 +47,17 @@ export function TextField({
 
 export function SelectField({
   label,
+  desc,
   className,
   ...props
-}: Omit<React.ComponentPropsWithoutRef<'select'>, 'id'> & { label: string }) {
+}: Omit<React.ComponentPropsWithoutRef<'select'>, 'id'> & { label: string } & {
+  desc?: string
+}) {
   let id = useId()
 
   return (
     <div className={className}>
-      {label && <Label id={id}>{label}</Label>}
+      {label} {desc ? <span className="italic">{desc}</span> : ''}
       <select id={id} {...props} className={clsx(formClasses, 'pr-8')} />
     </div>
   )

@@ -20,12 +20,14 @@ const volunteers = [
 ]
 
 const volunteer_interests = [
-  { id: 'penyuluhan', title: 'Penyuluhan' },
-  { id: 'perawatan-gigi-anak', title: 'Perawatan Gigi Anak' },
-  { id: 'konservasi', title: 'Konservasi' },
-  { id: 'pencabutan', title: 'Pencabutan' },
-  { id: 'screening', title: 'Screening' },
-  { id: 'non-dokter-gigi', title: 'Bukan dokter gigi' },
+  { id: 'volunteer_interest_penyuluhan', title: 'Penyuluhan' },
+  {
+    id: 'volunteer_interest_perawatan_gigi_anak',
+    title: 'Perawatan Gigi Anak',
+  },
+  { id: 'volunteer_interest_konservasi', title: 'Konservasi' },
+  { id: 'volunteer_interest_pencabutan', title: 'Pencabutan' },
+  { id: 'volunteer_interest_screening', title: 'Screening' },
 ]
 
 const sizes = [
@@ -42,6 +44,7 @@ const isDefaultValue = true
 
 export function RegistrationForm() {
   const [state, formAction] = useFormState(createRegistration, null)
+  console.log({ state })
 
   return (
     <form
@@ -160,19 +163,20 @@ export function RegistrationForm() {
         </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset className="col-span-full">
         <legend className="mb-3 block text-sm font-medium text-gray-700">
           Peminatan Bakti Sosial{' '}
-          <span className="italic">(diisi oleh relawan dokter gigi saja)</span>
+          <span className="italic">
+            (diisi oleh relawan dokter gigi saja, boleh pilih lebih dari 1)
+          </span>
         </legend>
         <div className="space-y-6">
           {volunteer_interests.map((volunteer) => (
             <div key={volunteer.id} className="flex items-center">
               <input
                 id={volunteer.id}
-                value={volunteer.id}
-                name="volunteer_interest"
-                type="radio"
+                name={volunteer.id}
+                type="checkbox"
                 className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
               />
               <label

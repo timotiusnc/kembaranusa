@@ -1,26 +1,36 @@
-import Link from 'next/link'
-
-import { Logo } from '@/components/Logo'
+import { Container } from '@/components/Container'
+import { Footer } from '@/components/Footer'
+import { Header } from '@/components/Header'
 import { type Metadata } from 'next'
 
 import { RegistrationForm } from './registrationForm'
 
 export const metadata: Metadata = {
-  title: 'Sign Up',
+  title: 'Daftar Volunteer',
 }
 
 export default function Register() {
   return (
-    <div className="relative flex min-h-full shrink-0 justify-center md:px-12 lg:px-0">
-      <div className="relative z-10 flex flex-1 flex-col bg-white px-4 py-10 shadow-2xl sm:justify-center md:flex-none md:px-28">
-        <main className="mx-auto w-full max-w-4xl sm:px-4 md:px-0">
-          <div className="flex justify-center">
-            <Link href="/" aria-label="Home">
-              <Logo className="h-24 w-auto" />
-            </Link>
-          </div>
-          <div>
-            <div className="mt-8">
+    <>
+      <Header />
+      <main>
+        <section
+          id="register"
+          aria-label="Features for running your books"
+          className="relative overflow-hidden pb-16 pt-6 lg:py-20"
+        >
+          <Container className="relative">
+            <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
+              <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
+                Registrasi Kembara Nusa goes to{' '}
+                <span className="text-red-400">Sumba</span>
+              </h2>
+              <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
+                23 - 27 Oktober 2024 (5D4N)
+              </h3>
+            </div>
+
+            <div className="mt-6">
               <p>
                 Location:{' '}
                 <strong>
@@ -30,7 +40,6 @@ export default function Register() {
               <p>
                 Date: <strong>23 - 27 October 2024 (5D4N)</strong>
               </p>
-
               <p>
                 <strong>Arrival</strong> point:{' '}
                 <a
@@ -44,7 +53,6 @@ export default function Register() {
                   </strong>
                 </a>
               </p>
-
               <p>
                 <strong>Departure</strong> point:{' '}
                 <a
@@ -85,10 +93,11 @@ export default function Register() {
                 Click here for more info
               </a>
             </div>
-          </div>
-          <RegistrationForm />
-        </main>
-      </div>
-    </div>
+            <RegistrationForm />
+          </Container>
+        </section>
+      </main>
+      <Footer />
+    </>
   )
 }

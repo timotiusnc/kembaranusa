@@ -112,7 +112,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <Button href="/register" color="blue">
-              <span>Call for volunteers</span>
+              <span>Call for Volunteers</span>
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />

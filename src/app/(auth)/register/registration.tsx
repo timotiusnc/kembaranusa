@@ -40,7 +40,8 @@ export async function createRegistration(prevData: any, formData: FormData) {
     },
   })
 
-  redirect('/')
+  // Redirect to thank you page
+  redirect('/thanks')
 }
 
 const getRegistrationData = (formData: FormData) => {
@@ -48,11 +49,23 @@ const getRegistrationData = (formData: FormData) => {
     email: formData.get('email'),
     full_name: formData.get('full_name'),
     nick_name: formData.get('nick_name'),
-    phone: formData.get('phone'),
+    phone: `'${formData.get('phone')}`,
     sex: formData.get('sex'),
     job: formData.get('job'),
     volunteer: formData.get('volunteer'),
-    volunteer_interest: formData.get('volunteer_interest'),
+    volunteer_interest_penyuluhan: formData.get(
+      'volunteer_interest_penyuluhan',
+    ),
+    volunteer_interest_perawatan_gigi_anak: formData.get(
+      'volunteer_interest_perawatan_gigi_anak',
+    ),
+    volunteer_interest_konservasi: formData.get(
+      'volunteer_interest_konservasi',
+    ),
+    volunteer_interest_pencabutan: formData.get(
+      'volunteer_interest_pencabutan',
+    ),
+    volunteer_interest_screening: formData.get('volunteer_interest_screening'),
     instagram: formData.get('instagram'),
     domicile: formData.get('domicile'),
     size: formData.get('size'),
@@ -80,7 +93,11 @@ const getRegistrationDataForSheet = (
     registrationData.sex,
     registrationData.job,
     registrationData.volunteer,
-    registrationData.volunteer_interest,
+    registrationData.volunteer_interest_penyuluhan,
+    registrationData.volunteer_interest_perawatan_gigi_anak,
+    registrationData.volunteer_interest_konservasi,
+    registrationData.volunteer_interest_pencabutan,
+    registrationData.volunteer_interest_screening,
     registrationData.instagram,
     registrationData.domicile,
     registrationData.size,
