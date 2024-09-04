@@ -49,17 +49,6 @@ export default function Projects() {
               </h2>
               <Location />
 
-              <h2 id="itinerary">
-                <a href="#itinerary">Itinerary</a>
-              </h2>
-              <span className="text-sm text-red-500">
-                <i>
-                  Itinerary dapat berubah menyesuaikan kondisi. Waktu tertera
-                  adalah Waktu Indonesia Tengah (WITA) / GMT +8.
-                </i>
-              </span>
-              <Itinerary />
-
               <h2 id="flight">
                 <a href="#flight">Opsi Penerbangan</a>
               </h2>
@@ -348,7 +337,7 @@ const Flight = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Umbu Menhang Kunda / Mau Hau, Waingapu (WGP) - Jakarta (CGK) – 27 Oct
+          Umbu Mehang Kunda / Mau Hau, Waingapu (WGP) - Jakarta (CGK) – 27 Oct
           2024
         </a>
       </h4>

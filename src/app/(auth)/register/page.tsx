@@ -49,7 +49,7 @@ export default function Register() {
                   className="underline"
                 >
                   <strong>
-                    Bandara Tambolaka, Waikabubak, Sumba Barat Daya
+                    Bandara Tambolaka, Waikabubak, Sumba Barat Daya (TMC)
                   </strong>
                 </a>
               </p>
@@ -62,7 +62,7 @@ export default function Register() {
                   className="underline"
                 >
                   <strong>
-                    Bandara Umbu Mehang Kunda, Waingapu, Sumba Timur
+                    Bandara Umbu Mehang Kunda, Waingapu, Sumba Timur (WGP)
                   </strong>
                 </a>
               </p>
