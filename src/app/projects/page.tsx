@@ -1,6 +1,7 @@
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { WhatsAppLogo } from '@/components/logo/Whatsapp'
 
 export default function Projects() {
   return (
@@ -38,8 +39,11 @@ export default function Projects() {
               <h2 id="itinerary">
                 <a href="#itinerary">Itinerary</a>
               </h2>
-              <span className="text-red-500">
-                <i>Itinerary dapat berubah menyesuaikan kondisi</i>
+              <span className="text-sm text-red-500">
+                <i>
+                  Itinerary dapat berubah menyesuaikan kondisi. Waktu tertera
+                  adalah Waktu Indonesia Tengah (WITA) / GMT +8.
+                </i>
               </span>
               <Itinerary />
 
@@ -47,6 +51,16 @@ export default function Projects() {
                 <a href="#flight">Opsi Penerbangan</a>
               </h2>
               <Flight />
+
+              <h2 id="faq">
+                <a href="#faq">Frequently Asked Questions (FAQs)</a>
+              </h2>
+              <Faqs />
+
+              <h2 id="contact">
+                <a href="#contact">Contact Persons (CPs) </a>
+              </h2>
+              <Contact />
             </div>
           </Container>
         </section>
@@ -358,5 +372,69 @@ const Flight = () => {
         </tbody>
       </table>
     </>
+  )
+}
+
+const Faqs = () => {
+  return (
+    <ol>
+      <li>
+        <p className="italic">
+          <strong>
+            Apakah baksos ini mendapat Satuan Kredit Profesi (SKP) Kemenkes?
+          </strong>
+        </p>
+        <p>Ya, baksos ini mendapat SKP Kemenkes khusus dokter gigi.</p>
+      </li>
+
+      <li>
+        <p className="italic">
+          <strong>Saya bukan dokter, apakah boleh ikut mendaftar?</strong>
+        </p>
+        <p>
+          Trip ini terbuka untuk relawan medis dan non-medis. Untuk relawan
+          non-medis juga dapat membantu bakti sosial seperti di bagian
+          pendaftaran, mengatur flow pasien, dan menyiapkan obat-obatan.
+        </p>
+      </li>
+      <li>
+        <p className="italic">
+          <strong>
+            Untuk dokter umum apakah bisa mendaftar dan mendapat SKP juga?
+          </strong>
+        </p>
+        <p>
+          Maaf 🙏 untuk saat ini SKP Kemenkes hanya untuk anggota Persatuan
+          Dokter Gigi Indonesia (PDGI). Namun dokter umum tetap bisa mengikuti
+          baksos ini untuk membantu pemeriksaan kesehatan umum.
+        </p>
+      </li>
+      <li>
+        <p className="italic">
+          <strong>
+            Saya ingin mengikuti baksos saja tanpa ikut jalan-jalan, apakah
+            bisa?
+          </strong>
+        </p>
+        <p>
+          Bisa, namun hanya berlaku untuk dokter gigi dari PDGI cabang Sumba /
+          NTT. Untuk pendaftaran baksos saja harap menghubungi nomor contact
+          person (CP) yang tertera.
+        </p>
+      </li>
+    </ol>
+  )
+}
+
+const Contact = () => {
+  return (
+    <ul>
+      <li>
+        <a href="tel:08118330500">08118330500</a>
+      </li>
+      <li>
+        <a href="tel:081298054631">081298054631</a>
+      </li>
+    </ul>
   )
 }

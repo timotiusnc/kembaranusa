@@ -9,30 +9,39 @@ import { createRegistration } from './registration'
 import { useFormState, useFormStatus } from 'react-dom'
 
 const sexs = [
-  { id: 'male', title: 'Laki-laki' },
-  { id: 'female', title: 'Perempuan' },
+  { id: 'laki', title: 'Laki-laki' },
+  { id: 'perempuan', title: 'Perempuan' },
 ]
 
 const volunteers = [
-  { id: 'dentist', title: 'Dokter gigi' },
-  { id: 'general-practitioner', title: 'Dokter umum' },
-  { id: 'non-medic', title: 'Non-medis' },
+  { id: 'dokter-gigi', title: 'Dokter gigi' },
+  { id: 'dokter-umum', title: 'Dokter umum' },
+  { id: 'non-medis', title: 'Non-medis' },
+]
+
+const volunteer_interests = [
+  { id: 'penyuluhan', title: 'Penyuluhan' },
+  { id: 'perawatan-gigi-anak', title: 'Perawatan Gigi Anak' },
+  { id: 'konservasi', title: 'Konservasi' },
+  { id: 'pencabutan', title: 'Pencabutan' },
+  { id: 'screening', title: 'Screening' },
+  { id: 'non-dokter-gigi', title: 'Bukan dokter gigi' },
 ]
 
 const sizes = [
-  { id: 'xs', title: 'XS' },
-  { id: 's', title: 'S' },
-  { id: 'm', title: 'M' },
-  { id: 'l', title: 'L' },
-  { id: 'xl', title: 'XL' },
-  { id: 'xxl', title: 'XXL' },
+  { id: 'XS', title: 'XS' },
+  { id: 'S', title: 'S' },
+  { id: 'M', title: 'M' },
+  { id: 'L', title: 'L' },
+  { id: 'XL', title: 'XL' },
+  { id: 'XXL', title: 'XXL' },
 ]
 
 const RedStar = () => <span className="text-red-500">*</span>
+const isDefaultValue = true
 
 export function RegistrationForm() {
   const [state, formAction] = useFormState(createRegistration, null)
-  console.log({ state })
 
   return (
     <form
@@ -47,31 +56,33 @@ export function RegistrationForm() {
         autoComplete="email"
         required
         placeholder="Your email address"
-        defaultValue="asd@dasd.com"
+        defaultValue={isDefaultValue ? 'asd@dasd.com' : ''}
       />
       <TextField
-        label="Nama Lengkap (beserta gelar)"
+        label="Nama Lengkap"
+        desc="(beserta gelar)"
         name="full_name"
         type="text"
         autoComplete="full-name"
         required
-        defaultValue="Timotius Nugroho Chandra"
+        defaultValue={isDefaultValue ? 'Timotius Nugroho Chandra' : ''}
       />
       <TextField
         label="Nama Panggilan"
         name="nick_name"
         type="text"
         required
-        defaultValue="Timmy"
+        defaultValue={isDefaultValue ? 'Timmy' : ''}
       />
 
       <TextField
         className="col-span-full"
-        label="Nomor HP (WhatsApp)"
+        label="Nomor HP"
+        desc="(WhatsApp)"
         name="phone"
         type="number"
         required
-        defaultValue="081234567890"
+        defaultValue={isDefaultValue ? '081234567890' : ''}
       />
 
       <fieldset>
@@ -82,7 +93,7 @@ export function RegistrationForm() {
           {sexs.map((sex) => (
             <div key={sex.id} className="flex items-center">
               <input
-                defaultChecked
+                defaultChecked={isDefaultValue}
                 id={sex.id}
                 value={sex.id}
                 name="sex"
@@ -108,7 +119,8 @@ export function RegistrationForm() {
           id="date-of-birth"
           type="date"
           required
-          defaultValue="1990-01-01"
+          defaultValue={isDefaultValue ? '1990-01-01' : ''}
+          className={formClasses}
         />
       </div>
 
@@ -118,10 +130,10 @@ export function RegistrationForm() {
         name="job"
         type="text"
         required
-        defaultValue="Swasta"
+        defaultValue={isDefaultValue ? 'Swasta' : ''}
       />
 
-      <fieldset>
+      <fieldset className="col-span-full">
         <legend className="mb-3 block text-sm font-medium text-gray-700">
           Volunteer <RedStar />
         </legend>
@@ -129,13 +141,39 @@ export function RegistrationForm() {
           {volunteers.map((volunteer) => (
             <div key={volunteer.id} className="flex items-center">
               <input
-                defaultChecked
+                defaultChecked={isDefaultValue}
                 id={volunteer.id}
                 value={volunteer.id}
                 name="volunteer"
                 type="radio"
                 className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                 required
+              />
+              <label
+                htmlFor={volunteer.id}
+                className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+              >
+                {volunteer.title}
+              </label>
+            </div>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend className="mb-3 block text-sm font-medium text-gray-700">
+          Peminatan Bakti Sosial{' '}
+          <span className="italic">(diisi oleh relawan dokter gigi saja)</span>
+        </legend>
+        <div className="space-y-6">
+          {volunteer_interests.map((volunteer) => (
+            <div key={volunteer.id} className="flex items-center">
+              <input
+                id={volunteer.id}
+                value={volunteer.id}
+                name="volunteer_interest"
+                type="radio"
+                className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
               />
               <label
                 htmlFor={volunteer.id}
@@ -161,7 +199,7 @@ export function RegistrationForm() {
         name="domicile"
         type="text"
         required
-        defaultValue="81L"
+        defaultValue={isDefaultValue ? '81L' : ''}
       />
 
       <fieldset>
@@ -172,7 +210,7 @@ export function RegistrationForm() {
           {sizes.map((size) => (
             <div key={size.id} className="flex items-center">
               <input
-                defaultChecked
+                defaultChecked={isDefaultValue}
                 id={size.id}
                 value={size.id}
                 name="size"
@@ -197,13 +235,13 @@ export function RegistrationForm() {
         <div className="space-y-6">
           <div key="allergy-none" className="flex items-center">
             <input
+              defaultChecked={isDefaultValue}
               id="allergy-none"
               value="allergy-none"
               name="allergy"
               type="radio"
               required
               className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-              defaultChecked
             />
             <label
               htmlFor="allergy-none"
@@ -244,12 +282,13 @@ export function RegistrationForm() {
         <div className="space-y-6">
           <div key="volunteer-exp-none" className="flex items-center">
             <input
+              defaultChecked={isDefaultValue}
               id="volunteer-exp-none"
+              value="volunteer-exp-none"
               name="volunteer_exp"
               type="radio"
               required
               className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-              defaultChecked
             />
             <label
               htmlFor="volunteer-exp-none"
@@ -261,6 +300,7 @@ export function RegistrationForm() {
           <div key="volunteer-exp-other" className="flex items-center">
             <input
               id="volunteer-exp-other"
+              value="volunteer-exp-other"
               name="volunteer_exp"
               type="radio"
               required
@@ -304,6 +344,8 @@ export function RegistrationForm() {
         placeholder="Rizal - suami - 081xxxxxxx"
       />
 
+      <div className="text-sm italic text-red-500">* Wajib diisi</div>
+
       <div className="col-span-full">
         <SubmitButton />
       </div>
@@ -320,12 +362,13 @@ const SubmitButton = () => {
       variant="solid"
       color="blue"
       className={clsx('w-full', {
-        'bg-blue-400 hover:bg-blue-400 active:bg-blue-400': pending,
+        'bg-gray-400 hover:bg-gray-400 hover:text-white active:bg-gray-400 active:text-white':
+          pending,
       })}
       disabled={pending}
     >
       <span>
-        Sign up <span aria-hidden="true">&rarr;</span>
+        Daftar <span aria-hidden="true">&rarr;</span>
       </span>
     </Button>
   )

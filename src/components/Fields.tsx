@@ -23,17 +23,20 @@ export function Label({
 
 export function TextField({
   label,
+  desc,
   type = 'text',
   className,
   ...props
-}: Omit<React.ComponentPropsWithoutRef<'input'>, 'id'> & { label: string }) {
+}: Omit<React.ComponentPropsWithoutRef<'input'>, 'id'> & { label: string } & {
+  desc?: string
+}) {
   let id = useId()
 
   return (
     <div className={className}>
       {label && (
         <Label id={id}>
-          {label}{' '}
+          {label} {desc ? <span className="italic">{desc}</span> : ''}
           {props.required ? <span className="text-red-500">*</span> : ''}
         </Label>
       )}

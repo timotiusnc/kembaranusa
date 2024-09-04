@@ -14,7 +14,11 @@ export function ImageUploadField({
 
   return (
     <div className={className}>
-      {label && <Label id={id}>{label}</Label>}
+      {label && (
+        <Label id={id}>
+          {label} <span className="text-red-500">*</span>
+        </Label>
+      )}
       <input
         id={id}
         type="file"
