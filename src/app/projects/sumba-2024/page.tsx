@@ -2,6 +2,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { InstagramSvg } from '@/components/logo/InstagramSvg'
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -425,13 +426,23 @@ const Faqs = () => {
 
 const Contact = () => {
   return (
-    <ul>
-      <li>
-        <a href="tel:08118330500">08118330500</a>
-      </li>
-      <li>
-        <a href="tel:081298054631">081298054631</a>
-      </li>
-    </ul>
+    <>
+      <ul>
+        <li>
+          <a href="tel:08118330500">08118330500</a>
+        </li>
+        <li>
+          <a href="tel:081298054631">081298054631</a>
+        </li>
+      </ul>
+      <a
+        href="https://www.instagram.com/kembara.nusa/"
+        target="_blank"
+        rel="noreferrer"
+        className="no-underline"
+      >
+        <InstagramSvg className="inline-block w-6" /> @kembara.nusa
+      </a>
+    </>
   )
 }

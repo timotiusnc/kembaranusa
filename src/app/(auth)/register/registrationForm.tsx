@@ -116,7 +116,7 @@ export function RegistrationForm() {
       </fieldset>
 
       <div>
-        <label htmlFor="date-of-birth">Tanggal Lahir</label>
+        <label htmlFor="date-of-birth">Tanggal Lahir</label> <RedStar />
         <br />
         <input
           id="date-of-birth"

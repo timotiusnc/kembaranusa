@@ -70,8 +70,9 @@ export default function About() {
                 href="https://www.instagram.com/kembara.nusa/"
                 target="_blank"
                 rel="noreferrer"
+                className="no-underline"
               >
-                <InstagramSvg className="w-6" />
+                <InstagramSvg className="inline w-6" /> @kembara.nusa
               </a>
             </div>
           </Container>
