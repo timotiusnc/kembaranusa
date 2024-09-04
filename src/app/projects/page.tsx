@@ -1,7 +1,6 @@
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { WhatsAppLogo } from '@/components/logo/Whatsapp'
 
 export default function Projects() {
   return (
