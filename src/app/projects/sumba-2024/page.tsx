@@ -65,7 +65,7 @@ export default function Projects() {
               </h2>
               <Contact />
 
-              <div className="flex justify-center">
+              <div className="mt-6 flex justify-center">
                 <Button color="blue" href="/register">
                   Daftar Sekarang
                 </Button>
