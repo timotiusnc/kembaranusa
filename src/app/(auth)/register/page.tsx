@@ -45,7 +45,7 @@ export default function Register() {
                 <a
                   href="https://maps.app.goo.gl/iGn3WazRX8XFCHf98"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   className="underline"
                 >
                   <strong>
@@ -58,7 +58,7 @@ export default function Register() {
                 <a
                   href="https://maps.app.goo.gl/9nG6no7p8u2994Fb6"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   className="underline"
                 >
                   <strong>
@@ -76,7 +76,7 @@ export default function Register() {
                 <li>• DP 30% (Rp 1.650.000) upon registration</li>
                 <li>• Remaining 70% to be paid 14 days before the trip</li>
                 <li>
-                  • All pament is non-refundable, but transferrable to another
+                  • All payment is non-refundable, but transferrable to another
                   participant
                 </li>
                 <li>
@@ -89,7 +89,7 @@ export default function Register() {
               <strong>CP: 0811-833-0500 / 0812-9805-4631</strong>
             </div>
             <div className="mt-8">
-              <a href="/projects" className="font-bold underline">
+              <a href="/projects/sumba-2024" className="font-bold underline">
                 Click here for more info
               </a>
             </div>

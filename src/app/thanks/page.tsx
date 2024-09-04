@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Daftar Volunteer',
 }
 
-export default function Thank({ searchParams }: any) {
+export default function Thank() {
   return (
     <>
       <Header />
@@ -33,6 +33,7 @@ export default function Thank({ searchParams }: any) {
           </Container>
         </section>
       </main>
+      <Footer />
     </>
   )
 }

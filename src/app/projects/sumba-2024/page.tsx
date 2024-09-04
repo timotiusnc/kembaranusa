@@ -67,6 +67,12 @@ export default function Projects() {
                 <a href="#contact">Contact Persons (CPs) </a>
               </h2>
               <Contact />
+
+              <div className="flex justify-center">
+                <Button color="blue" href="/register">
+                  Daftar Sekarang
+                </Button>
+              </div>
             </div>
           </Container>
         </section>
@@ -86,7 +92,7 @@ const Location = () => {
         <a
           href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Peta
         </a>
@@ -100,7 +106,7 @@ const Location = () => {
         <a
           href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Peta
         </a>
@@ -294,13 +300,12 @@ const Flight = () => {
         <a
           href="https://en.tiket.com/pesawat/search?d=CGK&a=TMC&date=2024-10-23&adult=1&child=0&infant=0&class=economy&dType=AIRPORT&aType=AIRPORT&dLabel=Jakarta&aLabel=Tambolaka&type=depart&flexiFare=true"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Jakarta (CGK) - Tambolaka, Waikabubak (TMC) – 23 Oct 2024
         </a>
         <br />
       </h4>
-      <div className="font-bold text-red-500">IDR 2.099.062 (bagasi 20 kg)</div>
       <table>
         <thead>
           <tr>
@@ -334,13 +339,12 @@ const Flight = () => {
         <a
           href="https://en.tiket.com/pesawat/search?d=WGP&a=CGK&date=2024-10-27&adult=1&child=0&infant=0&class=economy&dType=AIRPORT&aType=AIRPORT&dLabel=Waingapu&aLabel=Jakarta&type=depart&flexiFare=true"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           Umbu Menhang Kunda / Mau Hau, Waingapu (WGP) - Jakarta (CGK) – 27 Oct
           2024
         </a>
       </h4>
-      <div className="font-bold text-red-500">IDR 3.721.060 (bagasi 20 kg)</div>
       <table>
         <thead>
           <tr>
