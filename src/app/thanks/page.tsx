@@ -4,7 +4,7 @@ import { Header } from '@/components/Header'
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Daftar Volunteer',
+  title: 'Terima Kasih',
 }
 
 export default function Thank() {

@@ -2,6 +2,13 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { type Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Bakti Sosial & Explore Sumba 2024',
+  description:
+    'Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan kesehatan gigi dan mulut di Sumba, 23 - 27 Oktober 2024.',
+}
 
 export default function Projects() {
   return (

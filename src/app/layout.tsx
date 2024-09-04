@@ -10,6 +10,16 @@ export const metadata: Metadata = {
     template: '%s - Kembara Nusa',
     default: 'Kembara Nusa - Mengembara nusantara',
   },
+  openGraph: {
+    images: [
+      {
+        url: 'https://kembaranusa.org/opengraph-image.png',
+        type: 'image/png',
+        width: 500,
+        height: 500,
+      },
+    ],
+  },
   description:
     'Mengembara nusantara dan memberikan pelayanan kesehatan gigi di daerah 3T (tertinggal, terdepan, dan terluar) di Indonesia.',
 }
