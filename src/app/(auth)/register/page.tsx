@@ -98,14 +98,16 @@ export default function Register() {
                 </a>
               </strong>
             </div>
-            <a
-              href="https://www.instagram.com/kembara.nusa/"
-              target="_blank"
-              rel="noreferrer"
-              className="no-underline"
-            >
-              <InstagramSvg className="inline-block w-6" /> @kembara.nusa
-            </a>
+            <div className="mt-4">
+              <a
+                href="https://www.instagram.com/kembara.nusa/"
+                target="_blank"
+                rel="noreferrer"
+                className="no-underline"
+              >
+                <InstagramSvg className="inline-block w-6" /> @kembara.nusas
+              </a>
+            </div>
             <div className="mt-8">
               <a href="/projects/sumba-2024" className="font-bold underline">
                 Click here for more info
