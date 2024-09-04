@@ -20,55 +20,60 @@ export default function Register() {
             </Link>
           </div>
           <div>
-            <p className="mt-8 italic text-gray-900">
-              <strong>Yayasan Kembara Nusa</strong> bersama dengan{' '}
-              <strong>PDGI Cabang Sumba</strong> mengadakan{' '}
-              <strong>
-                Bakti Sosial Penyuluhan dan Pengobatan Gigi dan Mulut
-              </strong>{' '}
-              untuk masyarakat Sumba yang akan dilaksanakan pada:
-            </p>
             <div className="mt-8">
-              <strong>Waktu dan tempat:</strong>
-              <strong>
-                <ol>
-                  <li>
-                    Kamis, 24 Oktober 2024:{' '}
-                    <a
-                      href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
-                      target="_blank"
-                      rel="noopener"
-                      className="underline"
-                    >
-                      Desa Waipaddi, Kec. Kodi Bangedo, Sumba Barat Daya, NTT
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
-                      target="_blank"
-                      rel="noopener"
-                      className="underline"
-                    >
-                      Jumat, 25 Oktober 2024: Yayasan Cahaya Kasih Sumba, Kota
-                      Tambolaka, Sumba Barat Daya, NTT
-                    </a>
-                  </li>
-                </ol>
-              </strong>
-              <strong>Pukul: 08:00 - 16:00 WITA</strong>
+              <p>
+                Location:{' '}
+                <strong>
+                  Sumba Barat Daya & Sumba Timur, Nusa Tenggara Timur
+                </strong>
+              </p>
+              <p>
+                Date: <strong>23 - 27 October 2024 (5D4N)</strong>
+              </p>
+
+              <p>
+                <strong>Arrival</strong> point:{' '}
+                <a
+                  href="https://maps.app.goo.gl/iGn3WazRX8XFCHf98"
+                  target="_blank"
+                  rel="noopener"
+                  className="underline"
+                >
+                  <strong>
+                    Bandara Tambolaka, Waikabubak, Sumba Barat Daya
+                  </strong>
+                </a>
+              </p>
+
+              <p>
+                <strong>Departure</strong> point:{' '}
+                <a
+                  href="https://maps.app.goo.gl/9nG6no7p8u2994Fb6"
+                  target="_blank"
+                  rel="noopener"
+                  className="underline"
+                >
+                  <strong>
+                    Bandara Umbu Mehang Kunda, Waingapu, Sumba Timur
+                  </strong>
+                </a>
+              </p>
             </div>
+
             <div className="mt-8">
               <div>
-                Donasi kegiatan bakti sosial: <strong>Rp 400.000 / pax</strong>
+                Price: <strong>Rp 5.499.000 / pax</strong>
               </div>
               <ul>
-                <li>• Baksos ber-SKP Kemenkes</li>
-                <li>• Termasuk makan siang</li>
-                <li>• Wajib mengikuti 2 hari baksos</li>
+                <li>• DP 30% (Rp 1.650.000) upon registration</li>
+                <li>• Remaining 70% to be paid 14 days before the trip</li>
                 <li>
-                  • Transfer ke BCA Digital (Blu) a.n. Stella Valentina no.
-                  0076-4608-4381
+                  • All pament is non-refundable, but transferrable to another
+                  participant
+                </li>
+                <li>
+                  • Payment transfer to BCA Digital (Blu) a.n. Stella Valentina
+                  no. 0076-4608-4381
                 </li>
               </ul>
             </div>
@@ -77,7 +82,7 @@ export default function Register() {
             </div>
             <div className="mt-8">
               <a href="/projects" className="font-bold underline">
-                Klik di sini untuk informasi lebih lanjut
+                Click here for more info
               </a>
             </div>
           </div>

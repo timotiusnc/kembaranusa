@@ -23,7 +23,7 @@ export default function Projects() {
               </h3>
             </div>
 
-            <div className="prose mt-6 max-w-2xl  md:mx-auto xl:max-w-none">
+            <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
               <p className="lead">
                 Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan
                 kesehatan gigi dan mulut. Bakti sosial ini memberikan sertifikat
@@ -291,7 +291,9 @@ const Flight = () => {
         >
           Jakarta (CGK) - Tambolaka, Waikabubak (TMC) – 23 Oct 2024
         </a>
+        <br />
       </h4>
+      <div className="font-bold text-red-500">IDR 2.099.062 (bagasi 20 kg)</div>
       <table>
         <thead>
           <tr>
@@ -300,7 +302,6 @@ const Flight = () => {
             <th>Kode</th>
             <th>Berangkat</th>
             <th>Tiba</th>
-            <th>Harga</th>
           </tr>
         </thead>
         <tbody>
@@ -310,11 +311,6 @@ const Flight = () => {
             <td>IU-756</td>
             <td>06:30</td>
             <td>09:20</td>
-            <td rowSpan={2} className="text-center align-middle">
-              IDR 2.099.062
-              <br />
-              bagasi 20 kg
-            </td>
           </tr>
           <tr>
             <td>DPS-TMC</td>
@@ -337,6 +333,7 @@ const Flight = () => {
           2024
         </a>
       </h4>
+      <div className="font-bold text-red-500">IDR 3.721.060 (bagasi 20 kg)</div>
       <table>
         <thead>
           <tr>
@@ -345,7 +342,6 @@ const Flight = () => {
             <th>Kode</th>
             <th>Berangkat</th>
             <th>Tiba</th>
-            <th>Harga</th>
           </tr>
         </thead>
         <tbody>
@@ -355,11 +351,6 @@ const Flight = () => {
             <td>IW-1885</td>
             <td>06:35</td>
             <td>08:15</td>
-            <td rowSpan={2} className="text-center align-middle">
-              IDR 3.721.060
-              <br />
-              bagasi 20 kg
-            </td>
           </tr>
           <tr>
             <td>DPS-CGK</td>
