@@ -41,7 +41,7 @@ export default function Register() {
               <p>
                 Date: <strong>23 - 27 October 2024 (5D4N)</strong>
               </p>
-              <p>
+              <p className="mt-4">
                 <strong>Arrival</strong> point:{' '}
                 <a
                   href="https://maps.app.goo.gl/iGn3WazRX8XFCHf98"
@@ -105,7 +105,7 @@ export default function Register() {
                 rel="noreferrer"
                 className="no-underline"
               >
-                <InstagramSvg className="inline-block w-6" /> @kembara.nusas
+                <InstagramSvg className="inline-block w-6" /> @kembara.nusa
               </a>
             </div>
             <div className="mt-8">
