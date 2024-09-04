@@ -1,0 +1,281 @@
+import { Container } from '@/components/Container'
+import { Footer } from '@/components/Footer'
+import { Header } from '@/components/Header'
+
+export default function Projects() {
+  return (
+    <>
+      <Header />
+      <main>
+        <section
+          id="project"
+          aria-label="Features for running your books"
+          className="relative overflow-hidden pb-16 pt-6 lg:py-20"
+        >
+          <Container className="relative">
+            <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
+              <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
+                Bakti Sosial + Explore <br />
+                <span className="text-red-400">Sumba</span>
+              </h2>
+              <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
+                23 - 27 Oktober 2024 (5D4N)
+              </h3>
+            </div>
+
+            <div className="prose mt-6 max-w-2xl  md:mx-auto xl:max-w-none">
+              <p className="lead">
+                Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan
+                kesehatan gigi dan mulut. Bakti sosial ini memberikan sertifikat
+                Satuan Kredit Profesi (SKP) Kemenkes untuk dokter gigi.
+              </p>
+
+              <h2 id="lokasi">
+                <a href="#lokasi">Lokasi</a>
+              </h2>
+              <Location />
+
+              <h2 id="itinerary">
+                <a href="#itinerary">Itinerary</a>
+              </h2>
+              <Itinerary />
+
+              <h2 id="flight">
+                <a href="#flight">Opsi Penerbangan</a>
+              </h2>
+              <Flight />
+            </div>
+          </Container>
+        </section>
+      </main>
+      <Footer />
+    </>
+  )
+}
+
+const Location = () => {
+  return (
+    <>
+      <p>
+        Lokasi Baksos #1:{' '}
+        <strong>Desa Waipaddi, kecamatan Kodi Bangedo, Sumba Barat Daya</strong>{' '}
+        -{' '}
+        <a
+          href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
+          target="_blank"
+          rel="noopener"
+        >
+          Peta
+        </a>
+      </p>
+      <p>
+        Lokasi Baksos #2:{' '}
+        <strong>
+          Pusat Pengembangan Anak (PPA) Yayasan Cahaya Kasih Sumba
+        </strong>{' '}
+        -{' '}
+        <a
+          href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
+          target="_blank"
+          rel="noopener"
+        >
+          Peta
+        </a>
+      </p>
+    </>
+  )
+}
+
+const Itinerary = () => {
+  return (
+    <>
+      <h4>Rabu, 23 Okt 2024</h4>
+      <table>
+        <thead>
+          <tr>
+            <th className="w-20">Jam</th>
+            <th>Kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:45</td>
+            <td>Sampai di Sumba</td>
+          </tr>
+          <tr>
+            <td>12:00</td>
+            <td>Bertemu di meeting point: bandara Tambolaka (TMC)</td>
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td>Check-in di hotel Sinar Tambolaka</td>
+          </tr>
+          <tr>
+            <td>15:00</td>
+            <td>Kopi sore: Talasi</td>
+          </tr>
+          <tr>
+            <td>18:00</td>
+            <td>Sunset di pantai Mananga Aba</td>
+          </tr>
+          <tr>
+            <td>19:00</td>
+            <td>Dinner di Sinar Tambolaka</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Kamis, 24 Okt 2024</h4>
+      <table>
+        <thead>
+          <tr>
+            <th className="w-20">Jam</th>
+            <th>Kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:00</td>
+            <td>Bakti sosial hari #1: desa Waipaddi</td>
+          </tr>
+          <tr>
+            <td>15:00</td>
+            <td>Perjalanan ke danau Waikuri</td>
+          </tr>
+          <tr>
+            <td>16:00</td>
+            <td>Mengagumi keindahan danau Waikuri</td>
+          </tr>
+          <tr>
+            <td>19:00</td>
+            <td>Makan malam di Dapur Sumba</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Jumat, 25 Okt 2024</h4>
+      <table>
+        <thead>
+          <tr>
+            <th className="w-20">Jam</th>
+            <th>Kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:00</td>
+            <td>
+              Bakti sosial hari #2: Program Pengembangan Anak (PPA) Cahaya Kasih
+              Sumba
+            </td>
+          </tr>
+          <tr>
+            <td>15:00</td>
+            <td>Perjalanan ke pantai Mandorak</td>
+          </tr>
+          <tr>
+            <td>16:00</td>
+            <td>Berkontemplasi di pantai Mandorak</td>
+          </tr>
+          <tr>
+            <td>19:00</td>
+            <td>Makan malam di Gula Garam</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Sabtu, 26 Okt 2024</h4>
+      <table>
+        <thead>
+          <tr>
+            <th className="w-20">Jam</th>
+            <th>Kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>06:30</td>
+            <td>Check-out</td>
+          </tr>
+          <tr>
+            <td>07:00</td>
+            <td>Perjalanan ke desa adat Prai Ijing</td>
+          </tr>
+          <tr>
+            <td>08:00</td>
+            <td>Mengagumi budaya Marapu di desa adat Prai Ijing </td>
+          </tr>
+          <tr>
+            <td>09:00</td>
+            <td>Perjalanan ke bukit Wairinding</td>
+          </tr>
+          <tr>
+            <td>11:30</td>
+            <td>Refleksi diri di bukit Wairinding</td>
+          </tr>
+          <tr>
+            <td>13:00</td>
+            <td>Makan siang di Casa Kandara</td>
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td>Check-in di Casa Kandara</td>
+          </tr>
+          <tr>
+            <td>15:30</td>
+            <td>Perjalanan ke bukit Hiliwuku</td>
+          </tr>
+          <tr>
+            <td>16:30</td>
+            <td>Menikmati keindahan alam bukit Hiliwuku</td>
+          </tr>
+          <tr>
+            <td>17:00</td>
+            <td>Menikmati keindahan alam bukit Merdeka</td>
+          </tr>
+          <tr>
+            <td>16:30</td>
+            <td>Menikmati keindahan alam bukit Piarakuku</td>
+          </tr>
+          <tr>
+            <td>16:30</td>
+            <td>Makan malam di Local Three cafe & eatery</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>Minggu, 27 Okt 2024</h4>
+      <table>
+        <thead>
+          <tr>
+            <th className="w-20">Jam</th>
+            <th>Kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>06:35</td>
+            <td>Kembali ke Jakarta (via Waingapu)</td>
+          </tr>
+        </tbody>
+      </table>
+    </>
+  )
+}
+
+const Flight = () => {
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Rute</th>
+          <th>Maskapai</th>
+          <th>Kode</th>
+          <th>Berangkat</th>
+          <th>Tiba</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+    </table>
+  )
+}

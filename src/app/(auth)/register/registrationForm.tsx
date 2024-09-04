@@ -313,7 +313,6 @@ export function RegistrationForm() {
 
 const SubmitButton = () => {
   const { pending } = useFormStatus()
-  console.log({ pending })
 
   return (
     <Button

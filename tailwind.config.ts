@@ -1,5 +1,6 @@
 import formsPlugin from '@tailwindcss/forms'
 import headlessuiPlugin from '@headlessui/tailwindcss'
+import prosePlugin from '@tailwindcss/typography'
 import { type Config } from 'tailwindcss'
 
 export default {
@@ -25,7 +26,6 @@ export default {
         '4xl': '2rem',
       },
       fontFamily: {
-        sans: 'var(--font-inter)',
         display: 'var(--font-lexend)',
       },
       maxWidth: {
@@ -33,5 +33,5 @@ export default {
       },
     },
   },
-  plugins: [formsPlugin, headlessuiPlugin],
+  plugins: [formsPlugin, headlessuiPlugin, prosePlugin],
 } satisfies Config

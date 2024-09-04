@@ -118,7 +118,8 @@ const uploadFile = async (uploadedFile: File, registrationData: any) => {
   const docId = response.data.id
   const viewLink = response.data.webViewLink
 
-  console.log(`File '${metadata.name}' uploaded with ID: ${docId}`)
-  console.log(`View link: ${viewLink}`)
+  console.log(
+    `File '${metadata.name}' uploaded with ID: ${docId}, view link: ${viewLink}`,
+  )
   return [timestamp, viewLink]
 }
