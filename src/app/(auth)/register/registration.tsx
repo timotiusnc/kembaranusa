@@ -51,6 +51,7 @@ const getRegistrationData = (formData: FormData) => {
     nick_name: formData.get('nick_name'),
     phone: `'${formData.get('phone')}`,
     sex: formData.get('sex'),
+    date_of_birth: formData.get('date_of_birth'),
     job: formData.get('job'),
     volunteer: formData.get('volunteer'),
     volunteer_interest_penyuluhan: formData.get(
@@ -91,6 +92,7 @@ const getRegistrationDataForSheet = (
     registrationData.nick_name,
     registrationData.phone,
     registrationData.sex,
+    registrationData.date_of_birth,
     registrationData.job,
     registrationData.volunteer,
     registrationData.volunteer_interest_penyuluhan,

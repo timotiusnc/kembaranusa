@@ -120,6 +120,7 @@ export function RegistrationForm() {
         <br />
         <input
           id="date-of-birth"
+          name="date_of_birth"
           type="date"
           required
           defaultValue={isDefaultValue ? '1990-01-01' : ''}
