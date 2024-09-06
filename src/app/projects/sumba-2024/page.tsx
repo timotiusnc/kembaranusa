@@ -209,6 +209,15 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
+            href="https://maps.app.goo.gl/j2vEkQ6qyqMNU4eU9"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Danau Weekuri</strong>
+          </a>
+        </li>
+        <li>
+          <a
             href="https://maps.app.goo.gl/G2wrvpyN2Lr2JcEh7"
             target="_blank"
             rel="noreferrer"
@@ -297,6 +306,15 @@ const ItineraryShort = () => {
             rel="noreferrer"
           >
             Bukit Hiliwuku
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/AGDDxh38XaxjBcVV7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bukit Piarakuku
           </a>
         </li>
       </ol>
