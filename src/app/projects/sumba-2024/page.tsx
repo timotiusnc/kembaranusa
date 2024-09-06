@@ -128,8 +128,8 @@ const Location = () => {
           rel="noreferrer"
         >
           <strong>
-            Pusat Pengembangan Anak (PPA) Yayasan Cahaya Kasih Sumba -
-            Tambolaka, Sumba Barat Daya
+            Pusat Pengembangan Anak (PPA) Talitakum Gereja Kristen Sumba (GKS)
+            Mata - Tambolaka, Sumba Barat Daya
           </strong>
         </a>
       </p>
@@ -266,7 +266,7 @@ const ItineraryShort = () => {
             target="_blank"
             rel="noreferrer"
           >
-            PPA Yayasan Cahaya Kasih Sumba - Tambolaka, Sumba Barat Daya
+            PPA Talitakum GKS Mata - Tambolaka, Sumba Barat Daya
           </a>
         </li>
         <li>
@@ -430,8 +430,8 @@ const Itinerary = () => {
           <tr>
             <td>09:00</td>
             <td>
-              Bakti sosial hari #2: Program Pengembangan Anak (PPA) Cahaya Kasih
-              Sumba
+              Bakti sosial hari #2: Program Pengembangan Anak (PPA) Talitakum
+              Gereja Kristen Sumba (GKS) Mata - Tambolaka, Sumba Barat Daya
             </td>
           </tr>
           <tr>
