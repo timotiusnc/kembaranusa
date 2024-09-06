@@ -24,7 +24,7 @@ export default function Register() {
             <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
               <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
                 Registrasi Bakti Sosial + Explore{' '}
-                <span className="text-red-400">Sumba</span>
+                <span className="text-red-500">Sumba</span>
               </h2>
               <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
                 23 - 27 Oktober 2024 (5D4N)
@@ -33,16 +33,18 @@ export default function Register() {
 
             <div className="mt-6">
               <p>
-                Location:{' '}
+                Lokasi:{' '}
                 <strong>
                   Sumba Barat Daya & Sumba Timur, Nusa Tenggara Timur
                 </strong>
               </p>
               <p>
-                Date: <strong>23 - 27 October 2024 (5D4N)</strong>
+                Tanggal: <strong>23 - 27 October 2024 (5D4N)</strong>
               </p>
               <p className="mt-4">
-                <strong>Arrival</strong> point:{' '}
+                <span className="italic">
+                  <strong>Arrival</strong> point:
+                </span>{' '}
                 <a
                   href="https://maps.app.goo.gl/iGn3WazRX8XFCHf98"
                   target="_blank"
@@ -56,7 +58,10 @@ export default function Register() {
                 </a>
               </p>
               <p>
-                <strong>Departure</strong> point:{' '}
+                <span className="italic">
+                  <strong>Departure</strong> point
+                </span>
+                :{' '}
                 <a
                   href="https://maps.app.goo.gl/9nG6no7p8u2994Fb6"
                   target="_blank"
@@ -73,7 +78,8 @@ export default function Register() {
 
             <div className="mt-8">
               <div>
-                Rate: <strong>Rp 5.499.000 / pax</strong>
+                <span className="italic">Rate</span>:{' '}
+                <strong>Rp 5.499.000 / pax</strong>
               </div>
               <ul>
                 <li>• DP 30% (Rp 1.650.000) saat pendaftaran</li>

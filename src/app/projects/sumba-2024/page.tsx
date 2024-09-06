@@ -36,7 +36,7 @@ export default function Projects() {
               <p className="lead">
                 Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan
                 kesehatan gigi dan mulut. Bakti sosial ini memberikan sertifikat
-                Satuan Kredit Profesi (SKP) Kemenkes untuk dokter gigi.
+                Satuan Kredit Profesi (SKP) Kemenkes untuk semua tenaga medis.
               </p>
 
               <div className="flex justify-center">
@@ -172,7 +172,7 @@ const Rate = () => {
         <li>Donasi bakti sosial pengobatan gigi</li>
         <li>
           Sertifikat baksos dengan Satuan Kredit Profesi (SKP) Kemenkes (untuk
-          dokter gigi)
+          semua tenaga medis)
         </li>
         <li>Dokumentasi</li>
         <li>
@@ -639,11 +639,12 @@ const Faqs = () => {
           <strong>
             Untuk dokter umum apakah bisa mendaftar dan mendapat SKP juga?
           </strong>
+          <sup className="font-bold text-red-500"> updated</sup>
         </p>
         <p>
-          Maaf 🙏 untuk saat ini SKP Kemenkes hanya untuk anggota Persatuan
-          Dokter Gigi Indonesia (PDGI). Namun dokter umum tetap bisa mengikuti
-          baksos ini untuk membantu pemeriksaan kesehatan umum.
+          Semua tenaga medis (dokter gigi, dokter umum, perawat) mendapatkan SKP
+          Kemenkes. Dokter umum dan perawat bisa mengikuti baksos ini untuk
+          membantu pemeriksaan kesehatan umum.
         </p>
       </li>
       <li>
