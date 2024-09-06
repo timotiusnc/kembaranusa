@@ -55,13 +55,29 @@ export default function Projects() {
               </h2>
               <Flight />
 
+              <h2 id="rate">
+                <a href="#rate" className="italic">
+                  Rate
+                </a>
+              </h2>
+              <Rate />
+
+              <h2 id="itinerary">
+                <a href="#itinerary" className="italic">
+                  Itinerary
+                </a>
+              </h2>
+              <ItineraryShort />
+
               <h2 id="faq">
-                <a href="#faq">Frequently Asked Questions (FAQs)</a>
+                <a href="#faq" className="italic">
+                  Frequently Asked Questions (FAQs)
+                </a>
               </h2>
               <Faqs />
 
               <h2 id="contact">
-                <a href="#contact">Contact Persons (CPs) </a>
+                <a href="#contact">Kontak</a>
               </h2>
               <Contact />
 
@@ -83,30 +99,235 @@ const Location = () => {
   return (
     <>
       <p>
+        Meeting Point:{' '}
+        <a
+          href="https://maps.app.goo.gl/7TQbAiBQ5Ws5xzCV9"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>
+            Bandara Lede Kalumbang (TMC) - Tambolaka, Sumba Barat Daya
+          </strong>
+        </a>
+      </p>
+      <p>
         Lokasi Baksos #1:{' '}
-        <strong>Desa Waipaddi, kecamatan Kodi Bangedo, Sumba Barat Daya</strong>{' '}
-        -{' '}
         <a
           href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
           target="_blank"
           rel="noreferrer"
         >
-          Peta
+          <strong>Desa Waipaddi - Kec. Kodi Bangedo, Sumba Barat Daya</strong>
         </a>
       </p>
       <p>
         Lokasi Baksos #2:{' '}
-        <strong>
-          Pusat Pengembangan Anak (PPA) Yayasan Cahaya Kasih Sumba
-        </strong>{' '}
-        -{' '}
         <a
           href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
           target="_blank"
           rel="noreferrer"
         >
-          Peta
+          <strong>
+            Pusat Pengembangan Anak (PPA) Yayasan Cahaya Kasih Sumba -
+            Tambolaka, Sumba Barat Daya
+          </strong>
         </a>
+      </p>
+      <p>
+        Departure Point:{' '}
+        <a
+          href="https://maps.app.goo.gl/ZmrXhgK42K7AJ8Dy6"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>
+            Bandara Umbu Mehang Kunda (WGP) - Waingapu, Sumba Timur
+          </strong>
+        </a>
+      </p>
+    </>
+  )
+}
+
+const Rate = () => {
+  return (
+    <>
+      <h5 className="font-bold">Rp 5.499.000</h5>
+      <ul>
+        <li>DP 30% (Rp 1.650.000) saat pendaftaran</li>
+        <li>Sisa 70% dilunasi paling lambat 14 hari sebelum perjalanan</li>
+        <li>
+          Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
+          peserta lain
+        </li>
+        <li>
+          Transfer ke BCA Digital (Blu) a.n. Stella Valentina no. 0076-4608-4381
+        </li>
+      </ul>
+      <p className="font-bold italic">Include:</p>
+      <ol>
+        <li>Akomodasi 5 hari 4 malam</li>
+        <li>Transportasi</li>
+        <li>Konsumsi</li>
+        <li>Donasi bakti sosial pengobatan gigi</li>
+        <li>
+          Sertifikat baksos dengan Satuan Kredit Profesi (SKP) Kemenkes (untuk
+          dokter gigi)
+        </li>
+        <li>Dokumentasi</li>
+        <li>
+          <span className="italic">Local guide</span>
+        </li>
+        <li>Tiket masuk tempat wisata</li>
+      </ol>
+
+      <p className="font-bold italic">Exclude:</p>
+      <ol>
+        <li>Tiket pesawat</li>
+        <li>Kebutuhan pribadi</li>
+      </ol>
+    </>
+  )
+}
+
+const ItineraryShort = () => {
+  return (
+    <>
+      <p className="font-bold">Hari 1 (Rabu, 23 Okt 2024)</p>
+      <ol>
+        <li>
+          Tiba di{' '}
+          <a
+            href="https://maps.app.goo.gl/7TQbAiBQ5Ws5xzCV9"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>
+              Bandara Lede Kalumbang (TMC) - Tambolaka, Sumba Barat Daya
+            </strong>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/G2wrvpyN2Lr2JcEh7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Sunset di Pantai Mandorak</strong>
+          </a>
+        </li>
+      </ol>
+      <p className="font-bold">Hari 2 (Kamis, 24 Okt 2024)</p>
+      <ol>
+        <li>
+          Bakti sosial pengobatan gigi di{' '}
+          <a
+            href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Desa Waipaddi - Kec. Kodi Bangedo, Sumba Barat Daya</strong>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/YfYbCfc4Hxzi1EDK9"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Kampung Adat Ratenggaro</strong>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/1NqaVdAaHh6aiTo29"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Pantai Pero</strong>
+          </a>
+        </li>
+      </ol>
+      <p className="font-bold">Hari 3 (Jumat, 25 Okt 2024)</p>
+      <ol>
+        <li>
+          Bakti sosial pengobatan gigi di{' '}
+          <a
+            href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
+            target="_blank"
+            rel="noreferrer"
+          >
+            PPA Yayasan Cahaya Kasih Sumba - Tambolaka, Sumba Barat Daya
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/YBQaa8XvFqrWLWfe6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bukit Lendongara
+          </a>
+        </li>
+      </ol>
+      <p className="font-bold">Hari 4 (Sabtu, 26 Okt 2024)</p>
+      <ol>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/teyh4jqDasuG1HAg6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kampung Adat Prai Ijing
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/gVyNdk4mQ8M4w4TG9"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bukit Wairinding
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://maps.app.goo.gl/dSS4yRKBsU664YbN6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bukit Hiliwuku
+          </a>
+        </li>
+      </ol>
+      <p className="font-bold">Hari 5 (Minggu, 27 Okt 2024)</p>
+      <ol>
+        <li>
+          Berpisah di{' '}
+          <a
+            href="https://maps.app.goo.gl/ZmrXhgK42K7AJ8Dy6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>
+              Bandara Umbu Mehang Kunda (WGP) - Waingapu, Sumba Timur
+            </strong>
+          </a>
+        </li>
+      </ol>
+
+      <p>
+        <a
+          href="https://maps.app.goo.gl/pXuE4jzUSJU8AJqT8"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Google Custom Maps</strong>
+        </a>
+      </p>
+
+      <p className="text-sm italic">
+        *) lokasi wisata dapat berubah menyesuaikan kondisi
       </p>
     </>
   )

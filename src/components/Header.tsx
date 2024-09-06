@@ -87,7 +87,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/register">Call for Volunteers</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/about">About Us</MobileNavLink>
+            <MobileNavLink href="/about">Tentang Kami</MobileNavLink>
             <MobileNavLink href="/projects/sumba-2024">Projects</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
@@ -106,7 +106,7 @@ export function Header() {
               <Logo className="w-20" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="/about">About Us</NavLink>
+              <NavLink href="/about">Tentang Kami</NavLink>
               <NavLink href="/projects/sumba-2024">Projects</NavLink>
             </div>
           </div>

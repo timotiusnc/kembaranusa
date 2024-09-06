@@ -50,7 +50,8 @@ export default function Register() {
                   className="underline"
                 >
                   <strong>
-                    Bandara Tambolaka, Waikabubak, Sumba Barat Daya (TMC)
+                    Bandara Lede Kalumbang (TMC) - Tambolaka, Sumba Barat Daya
+                    (TMC)
                   </strong>
                 </a>
               </p>
@@ -63,7 +64,8 @@ export default function Register() {
                   className="underline"
                 >
                   <strong>
-                    Bandara Umbu Mehang Kunda, Waingapu, Sumba Timur (WGP)
+                    Bandara Umbu Mehang Kunda (WGP) - Waingapu, Sumba Timur
+                    (WGP)
                   </strong>
                 </a>
               </p>
@@ -71,18 +73,20 @@ export default function Register() {
 
             <div className="mt-8">
               <div>
-                Price: <strong>Rp 5.499.000 / pax</strong>
+                Rate: <strong>Rp 5.499.000 / pax</strong>
               </div>
               <ul>
-                <li>• DP 30% (Rp 1.650.000) upon registration</li>
-                <li>• Remaining 70% to be paid 14 days before the trip</li>
+                <li>• DP 30% (Rp 1.650.000) saat pendaftaran</li>
                 <li>
-                  • All payment is non-refundable, but transferrable to another
-                  participant
+                  • Sisa 70% dilunasi paling lambat 14 hari sebelum perjalanan
                 </li>
                 <li>
-                  • Payment transfer to BCA Digital (Blu) a.n. Stella Valentina
-                  no. 0076-4608-4381
+                  • Semua pembayaran tidak dapat di-refund, namun dapat
+                  dialihkan ke peserta lain
+                </li>
+                <li>
+                  • Transfer ke BCA Digital (Blu) a.n. Stella Valentina no.
+                  0076-4608-4381
                 </li>
               </ul>
             </div>

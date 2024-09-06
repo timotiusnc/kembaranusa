@@ -13,7 +13,7 @@ export function Footer() {
           <Logo className="mx-auto w-24" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="/about">About Us</NavLink>
+              <NavLink href="/about">Tentang Kami</NavLink>
               <NavLink href="/projects/sumba-2024">Projects</NavLink>
             </div>
           </nav>
