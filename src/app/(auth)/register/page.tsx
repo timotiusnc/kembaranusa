@@ -84,15 +84,15 @@ export default function Register() {
               <ul>
                 <li>• DP 30% (Rp 1.650.000) saat pendaftaran</li>
                 <li>
-                  • Sisa 70% dilunasi paling lambat 14 hari sebelum perjalanan
+                  • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
                 </li>
                 <li>
                   • Semua pembayaran tidak dapat di-refund, namun dapat
                   dialihkan ke peserta lain
                 </li>
                 <li>
-                  • Transfer ke BCA Digital (Blu) a.n. Stella Valentina no.
-                  0076-4608-4381
+                  • Transfer ke BCA Digital (Blu) 0076-4608-4381 a.n. Stella
+                  Valentina
                 </li>
               </ul>
             </div>
@@ -120,7 +120,7 @@ export default function Register() {
             </div>
             <div className="mt-8">
               <a href="/projects/sumba-2024" className="font-bold underline">
-                Click here for more info
+                Klik di sini untuk informasi lebih lanjut
               </a>
             </div>
             <RegistrationForm />

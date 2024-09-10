@@ -69,6 +69,13 @@ export default function Projects() {
               </h2>
               <ItineraryShort />
 
+              <h2 id="to-bring-list">
+                <a href="#to-bring-list" className="italic">
+                  To Bring List
+                </a>
+              </h2>
+              <ToBringList />
+
               <h2 id="faq">
                 <a href="#faq" className="italic">
                   Frequently Asked Questions (FAQs)
@@ -155,20 +162,22 @@ const Rate = () => {
       <h5 className="font-bold">Rp 5.499.000</h5>
       <ul>
         <li>DP 30% (Rp 1.650.000) saat pendaftaran</li>
-        <li>Sisa 70% dilunasi paling lambat 14 hari sebelum perjalanan</li>
+        <li>Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H</li>
         <li>
           Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
           peserta lain
         </li>
         <li>
-          Transfer ke BCA Digital (Blu) a.n. Stella Valentina no. 0076-4608-4381
+          Transfer ke BCA Digital (Blu) 0076-4608-4381 a.n. Stella Valentina
         </li>
       </ul>
       <p className="font-bold italic">Include:</p>
       <ol>
-        <li>Akomodasi 5 hari 4 malam</li>
+        <li>Akomodasi 5 hari 4 malam (di hotel bintang 3 / setara)</li>
         <li>Transportasi</li>
-        <li>Konsumsi</li>
+        <li>
+          Konsumsi (<em>breakfast, lunch, dinner</em>)
+        </li>
         <li>Donasi bakti sosial pengobatan gigi</li>
         <li>
           Sertifikat baksos dengan Satuan Kredit Profesi (SKP) Kemenkes (untuk
@@ -229,7 +238,7 @@ const ItineraryShort = () => {
       <p className="font-bold">Hari 2 (Kamis, 24 Okt 2024)</p>
       <ol>
         <li>
-          Bakti sosial pengobatan gigi di{' '}
+          Bakti sosial di{' '}
           <a
             href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
             target="_blank"
@@ -260,13 +269,15 @@ const ItineraryShort = () => {
       <p className="font-bold">Hari 3 (Jumat, 25 Okt 2024)</p>
       <ol>
         <li>
-          Bakti sosial pengobatan gigi di{' '}
+          Bakti sosial di{' '}
           <a
             href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
             target="_blank"
             rel="noreferrer"
           >
-            PPA Talitakum GKS Mata - Tambolaka, Sumba Barat Daya
+            <strong>
+              PPA Talitakum GKS Mata - Tambolaka, Sumba Barat Daya
+            </strong>
           </a>
         </li>
         <li>
@@ -275,7 +286,7 @@ const ItineraryShort = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Bukit Lendongara
+            <strong>Bukit Lendongara</strong>
           </a>
         </li>
       </ol>
@@ -287,7 +298,7 @@ const ItineraryShort = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Kampung Adat Prai Ijing
+            <strong>Kampung Adat Prai Ijing</strong>
           </a>
         </li>
         <li>
@@ -296,7 +307,7 @@ const ItineraryShort = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Bukit Wairinding
+            <strong>Bukit Wairinding</strong>
           </a>
         </li>
         <li>
@@ -305,7 +316,7 @@ const ItineraryShort = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Bukit Hiliwuku
+            <strong>Bukit Hiliwuku</strong>
           </a>
         </li>
         <li>
@@ -314,7 +325,7 @@ const ItineraryShort = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Bukit Piarakuku
+            <strong>Bukit Piarakuku</strong>
           </a>
         </li>
       </ol>
@@ -608,6 +619,40 @@ const Flight = () => {
           </tr>
         </tbody>
       </table>
+    </>
+  )
+}
+
+const ToBringList = () => {
+  return (
+    <>
+      <h4>Dokter Gigi dan Dokter Umum</h4>
+      <ol>
+        <li>Sneli (jas dokter lengan panjang / pendek)</li>
+        <li>Scrub (warna bebas)</li>
+      </ol>
+
+      <h4>Umum</h4>
+      <ol>
+        <li>Sepatu / sandal gunung tahan air</li>
+        <ol>
+          <li>Agar nyaman saat di pantai / danau</li>
+        </ol>
+        <li>
+          <em>Sunglasses</em>
+        </li>
+        <li>
+          <em>Sunblock</em>
+        </li>
+        <li>Topi</li>
+        <li>Kaos polos / kemeja</li>
+        <li>Celana panjang bahan / jeans</li>
+        <li>Obat-obatan pribadi</li>
+        <li>Uang tunai</li>
+        <li>
+          <em>Power bank</em>
+        </li>
+      </ol>
     </>
   )
 }
