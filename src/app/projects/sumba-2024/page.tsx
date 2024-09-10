@@ -635,9 +635,9 @@ const ToBringList = () => {
       <h4>Umum</h4>
       <ol>
         <li>Sepatu / sandal gunung tahan air</li>
-        <ol>
+        <ul>
           <li>Agar nyaman saat di pantai / danau</li>
-        </ol>
+        </ul>
         <li>
           <em>Sunglasses</em>
         </li>
@@ -645,7 +645,6 @@ const ToBringList = () => {
           <em>Sunblock</em>
         </li>
         <li>Topi</li>
-        <li>Kaos polos / kemeja</li>
         <li>Celana panjang bahan / jeans</li>
         <li>Obat-obatan pribadi</li>
         <li>Uang tunai</li>
