@@ -4,6 +4,7 @@ import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
 import { type Metadata } from 'next'
+import FacebookPixel from '@/components/FacebookPixel'
 
 export const metadata: Metadata = {
   title: {
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body className="flex h-full flex-col">
         {children}
         <Analytics />
+        <FacebookPixel />
       </body>
     </html>
   )
