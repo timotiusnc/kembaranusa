@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   },
   description:
     'Mengembara nusantara dan memberikan pelayanan kesehatan gigi di daerah 3T (tertinggal, terdepan, dan terluar) di Indonesia.',
+  verification: {
+    other: {
+      'facebook-domain-verification': "gkjqu4va5i00kqt2487wmutscxkegh",
+    },
+  },
 }
 
 const inter = Inter({
