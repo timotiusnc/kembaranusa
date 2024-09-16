@@ -24,6 +24,7 @@ export function Footer() {
               href="https://www.instagram.com/kembara.nusa/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Instagram @kembara.nusa"
             >
               <InstagramSvg className="w-6 fill-gray-500" />
             </a>
