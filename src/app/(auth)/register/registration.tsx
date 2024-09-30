@@ -114,8 +114,13 @@ const getRegistrationDataForSheet = (
 }
 
 const uploadFile = async (uploadedFile: File, registrationData: any) => {
+  console.log({ uploadedFile })
   const folderId = process.env.FOLDER_ID || ''
   const timestamp = new Date().toISOString()
+  if (uploadedFile.size === 0) {
+    return [timestamp, "File deliberately not uploaded as there's problem with Google connection from Vercel"];
+  }
+
   const metadata = {
     name: `${timestamp.replaceAll(/[-:.]/g, '-')}_${registrationData.email}_${
       uploadedFile.name
