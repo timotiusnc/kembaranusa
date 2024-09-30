@@ -123,14 +123,14 @@ const uploadFile = async (uploadedFile: File, registrationData: any) => {
     parents: [folderId],
   }
 
-  const buffer = await uploadedFile.arrayBuffer()
-  const fileBuffer = Buffer.from(buffer)
-  const media = {
-    mimeType: uploadedFile.type,
-    body: Readable.from(fileBuffer),
-  }
-
   try {
+    const buffer = await uploadedFile.arrayBuffer()
+    const fileBuffer = Buffer.from(buffer)
+    const media = {
+      mimeType: uploadedFile.type,
+      body: Readable.from(fileBuffer),
+    }
+
     const response = await gDrive.files.create({
       requestBody: metadata,
       media,
