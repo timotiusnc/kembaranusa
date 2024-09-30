@@ -130,17 +130,22 @@ const uploadFile = async (uploadedFile: File, registrationData: any) => {
     body: Readable.from(fileBuffer),
   }
 
-  const response = await gDrive.files.create({
-    requestBody: metadata,
-    media,
-    fields: 'id, webViewLink',
-  })
+  try {
+    const response = await gDrive.files.create({
+      requestBody: metadata,
+      media,
+      fields: 'id, webViewLink',
+    })
+    
+    const docId = response.data.id
+    const viewLink = response.data.webViewLink
 
-  const docId = response.data.id
-  const viewLink = response.data.webViewLink
-
-  console.log(
-    `File '${metadata.name}' uploaded with ID: ${docId}, view link: ${viewLink}`,
-  )
-  return [timestamp, viewLink]
+    console.log(
+      `File '${metadata.name}' uploaded with ID: ${docId}, view link: ${viewLink}`,
+    )
+    return [timestamp, viewLink]
+  } catch (error) {
+    console.error(error)
+    return [timestamp, `Error uploading file ${error}`]
+  }
 }
