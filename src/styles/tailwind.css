@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-h2 {
+    @apply mb-6 inline-block border-b-2 border-blue-100 pb-2 text-2xl font-bold;
+  }
+
+  .section-href {
+    @apply text-blue-600 no-underline transition-colors hover:text-blue-800;
+  }
+
+  .action-btn {
+    @apply transform rounded-full px-8 py-3 text-lg shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}

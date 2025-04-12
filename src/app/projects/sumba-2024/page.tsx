@@ -18,73 +18,136 @@ export default function Projects() {
       <main>
         <section
           id="project"
-          aria-label="Features for running your books"
-          className="relative overflow-hidden pb-16 pt-6 lg:py-20"
+          className="relative overflow-hidden bg-gradient-to-b from-white to-blue-50 py-16"
         >
           <Container className="relative">
             <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
-              <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
+              <h2 className="bg-gradient-to-r from-blue-600 to-red-500 bg-clip-text font-display text-3xl tracking-tight text-transparent sm:text-4xl md:text-5xl">
                 Bakti Sosial + Explore{' '}
-                <span className="text-red-400">Sumba</span>
+                <span className="font-bold text-red-500">Sumba</span>
               </h2>
-              <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
+
+              <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
                 23 - 27 Oktober 2024 (5D4N)
               </h3>
-            </div>
 
-            <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
-              <p className="lead">
-                Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan
-                kesehatan gigi dan mulut. Bakti sosial ini memberikan sertifikat
-                Satuan Kredit Profesi (SKP) Kemenkes untuk semua tenaga medis.
-              </p>
+              <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
+                <p className="lead text-lg text-gray-800">
+                  Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan
+                  kesehatan gigi dan mulut.
+                  <br />
+                  Bakti sosial ini memberikan sertifikat Satuan Kredit Profesi
+                  (SKP) Kemenkes untuk semua tenaga medis.
+                </p>
 
-              <div className="flex justify-center">
-                <Button color="blue" href="/register">
-                  Daftar Sekarang
-                </Button>
+                <div className="mt-8 flex justify-center">
+                  <Button color="blue" href="/register" className="action-btn">
+                    Daftar Sekarang
+                  </Button>
+                </div>
               </div>
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="lokasi">
-                <a href="#lokasi">Lokasi</a>
+        <section id="lokasi" className="relative overflow-hidden py-8">
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 className="section-h2">
+                📍{' '}
+                <a href="#lokasi" className="section-href">
+                  Lokasi
+                </a>
               </h2>
               <Location />
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="flight">
-                <a href="#flight">Opsi Penerbangan</a>
+        <section
+          id="flight"
+          className="relative overflow-hidden bg-gray-100 py-8"
+        >
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 className="section-h2">
+                ✈️{' '}
+                <a href="#flight" className="section-href">
+                  Opsi Penerbangan
+                </a>
               </h2>
               <Flight />
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="rate">
-                <a href="#rate" className="italic">
+        <section id="rate" className="relative overflow-hidden py-8">
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 className="section-h2">
+                💰{' '}
+                <a href="#rate" className="section-href">
                   Rate
                 </a>
               </h2>
               <Rate />
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="itinerary">
-                <a href="#itinerary" className="italic">
+        <section
+          id="itinerary"
+          className="relative overflow-hidden bg-gray-100 py-8"
+        >
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 className="section-h2">
+                🗓️{' '}
+                <a href="#itinerary" className="section-href">
                   Itinerary
                 </a>
               </h2>
               <ItineraryShort />
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="to-bring-list">
-                <a href="#to-bring-list" className="italic">
+        <section id="to-bring-list" className="relative overflow-hidden py-8">
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 className="section-h2">
+                🎒{' '}
+                <a href="#to-bring-list" className="section-href">
                   To Bring List
                 </a>
               </h2>
               <ToBringList />
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="faq">
-                <a href="#faq" className="italic">
+        <section id="faq" className="relative overflow-hidden bg-gray-100 py-8">
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 className="section-h2">
+                ❓{' '}
+                <a href="#faq" className="section-href italic">
                   Frequently Asked Questions (FAQs)
                 </a>
               </h2>
               <Faqs />
+            </div>
+          </Container>
+        </section>
 
-              <h2 id="contact">
-                <a href="#contact">Kontak</a>
+        <section id="contact" className="relative overflow-hidden py-8">
+          <Container className="relative">
+            <div className="prose max-w-2xl md:mx-auto xl:max-w-none">
+              <h2 id="contact" className="section-h2">
+                📞{' '}
+                <a href="#contact" className="section-href">
+                  Kontak
+                </a>
               </h2>
               <Contact />
 

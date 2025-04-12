@@ -13,17 +13,13 @@ export default function About() {
     <>
       <Header />
       <main>
-        <section
-          id="register"
-          aria-label="Features for running your books"
-          className="relative overflow-hidden pb-16 pt-6 lg:py-20"
-        >
+        <section className="relative overflow-hidden pb-16 pt-6 lg:py-20">
           <Container className="relative">
             <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
-              <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
+              <h2 className="bg-gradient-to-r from-blue-600 to-red-500 bg-clip-text font-display text-3xl tracking-tight text-transparent sm:text-4xl md:text-5xl">
                 Tentang Kembara Nusa
               </h2>
-              <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
+              <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
                 est. 2018
               </h3>
             </div>

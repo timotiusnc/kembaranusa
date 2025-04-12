@@ -22,28 +22,25 @@ export default function Register() {
         >
           <Container className="relative">
             <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
-              <h2 className="font-display text-3xl tracking-tight sm:text-4xl md:text-5xl">
+              <h2 className="bg-gradient-to-r from-blue-600 to-red-500 bg-clip-text font-display text-3xl tracking-tight text-transparent sm:text-4xl md:text-5xl">
                 Registrasi Bakti Sosial + Explore{' '}
-                <span className="text-red-500">Sumba</span>
+                <span className="text-red-500">Lombok</span>
               </h2>
-              <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
-                23 - 27 Oktober 2024 (5D4N)
+              <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
+                16 - 20 Juli 2025 (5D4N)
               </h3>
             </div>
 
             <div className="mt-6">
               <p>
-                Lokasi:{' '}
-                <strong>
-                  Sumba Barat Daya & Sumba Timur, Nusa Tenggara Timur
-                </strong>
+                📍 Lokasi: <strong>Lombok, Nusa Tenggara Barat</strong>
               </p>
               <p>
-                Tanggal: <strong>23 - 27 October 2024 (5D4N)</strong>
+                🗓️ Tanggal: <strong>16 - 20 Juli 2025 (5D4N)</strong>
               </p>
               <p className="mt-4">
                 <span className="italic">
-                  <strong>Arrival</strong> point:
+                  <strong>✈️ Arrival & Departure</strong> point:
                 </span>{' '}
                 <a
                   href="https://maps.app.goo.gl/iGn3WazRX8XFCHf98"
@@ -52,37 +49,20 @@ export default function Register() {
                   className="underline"
                 >
                   <strong>
-                    Bandara Lede Kalumbang (TMC) - Tambolaka, Sumba Barat Daya
-                    (TMC)
-                  </strong>
-                </a>
-              </p>
-              <p>
-                <span className="italic">
-                  <strong>Departure</strong> point
-                </span>
-                :{' '}
-                <a
-                  href="https://maps.app.goo.gl/9nG6no7p8u2994Fb6"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="underline"
-                >
-                  <strong>
-                    Bandara Umbu Mehang Kunda (WGP) - Waingapu, Sumba Timur
-                    (WGP)
+                    Lombok Intl Airport (Lombok) - Lombok Tengah, Nusa Tenggara
+                    Barat
                   </strong>
                 </a>
               </p>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-6">
               <div>
-                <span className="italic">Rate</span>:{' '}
-                <strong>Rp 5.499.000 / pax</strong>
+                💰 <span className="italic">Rate</span>:{' '}
+                <strong>Rp 4.950.000 / pax</strong>
               </div>
               <ul>
-                <li>• DP 30% (Rp 1.650.000) saat pendaftaran</li>
+                <li>• DP 30% (Rp 1.485.000) saat pendaftaran</li>
                 <li>
                   • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
                 </li>
@@ -98,14 +78,14 @@ export default function Register() {
             </div>
             <div className="mt-8">
               <strong>
-                CP:{' '}
-                <a href="tel:08118330500" className="underline">
-                  0811-833-0500
-                </a>{' '}
-                /{' '}
+                📞 CP:{' '}
                 <a href="tel:081298054631" className="underline">
                   0812-9805-4631
                 </a>
+                /{' '}
+                <a href="tel:081917081112" className="underline">
+                  0819-1708-1112
+                </a>{' '}
               </strong>
             </div>
             <div className="mt-4">
@@ -119,7 +99,7 @@ export default function Register() {
               </a>
             </div>
             <div className="mt-8">
-              <a href="/projects/sumba-2024" className="font-bold underline">
+              <a href="/projects/lombok-2025" className="font-bold underline">
                 Klik di sini untuk informasi lebih lanjut
               </a>
             </div>
