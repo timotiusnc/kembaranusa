@@ -89,7 +89,7 @@ function MobileNavigation() {
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/about">Tentang Kami</MobileNavLink>
             <MobileNavLink href="/projects/lombok-2025">
-              Latest Projects
+              Latest Project
             </MobileNavLink>
             <MobileNavLink href="/projects">Past Projects</MobileNavLink>
           </Popover.Panel>
