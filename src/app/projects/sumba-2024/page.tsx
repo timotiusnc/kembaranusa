@@ -414,7 +414,7 @@ const ItineraryShort = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <strong>Google Custom Maps</strong>
+          <strong>Google Maps list</strong>
         </a>
       </p>
 
@@ -776,10 +776,10 @@ const Contact = () => {
     <>
       <ul>
         <li>
-          <a href="tel:08118330500">08118330500</a>
+          Stella <a href="tel:08118330500">08118330500</a>
         </li>
         <li>
-          <a href="tel:081298054631">081298054631</a>
+          Safira <a href="tel:081298054631">081298054631</a>
         </li>
       </ul>
       <a

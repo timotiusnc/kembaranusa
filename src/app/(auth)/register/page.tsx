@@ -43,7 +43,7 @@ export default function Register() {
                   <strong>✈️ Arrival & Departure</strong> point:
                 </span>{' '}
                 <a
-                  href="https://maps.app.goo.gl/iGn3WazRX8XFCHf98"
+                  href="https://maps.app.goo.gl/jdAmAKAYaKnaCXPK7"
                   target="_blank"
                   rel="noreferrer"
                   className="underline"
@@ -77,16 +77,21 @@ export default function Register() {
               </ul>
             </div>
             <div className="mt-8">
-              <strong>
-                📞 CP:{' '}
-                <a href="tel:081298054631" className="underline">
-                  0812-9805-4631
-                </a>
-                /{' '}
-                <a href="tel:081917081112" className="underline">
-                  0819-1708-1112
-                </a>{' '}
-              </strong>
+              <strong>📞 CP:</strong>
+              <ul>
+                <li>
+                  • Safira{' '}
+                  <a href="tel:081298054631" className="underline">
+                    0812-9805-4631
+                  </a>
+                </li>
+                <li>
+                  • Acha{' '}
+                  <a href="tel:081917081112" className="underline">
+                    0819-1708-1112
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className="mt-4">
               <a

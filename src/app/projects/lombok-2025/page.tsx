@@ -171,7 +171,7 @@ const Location = () => {
       <li>
         Meeting & Departure Point:{' '}
         <a
-          href="https://maps.app.goo.gl/7TQbAiBQ5Ws5xzCV9"
+          href="https://maps.app.goo.gl/jdAmAKAYaKnaCXPK7"
           target="_blank"
           rel="noreferrer"
         >
@@ -183,11 +183,11 @@ const Location = () => {
       <li>
         Lokasi Baksos:{' '}
         <a
-          href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
+          href="https://maps.app.goo.gl/V7r2tfbWhEur7z1X6"
           target="_blank"
           rel="noreferrer"
         >
-          <strong>Desa Senaru - Kec. Lombok Utara, Sumba Barat Daya</strong>
+          <strong>Desa Senaru - Kec. Lombok Utara, Nusa Tenggara Barat</strong>
         </a>
       </li>
     </ul>
@@ -245,7 +245,7 @@ const ItineraryShort = () => {
         <li>
           Tiba di{' '}
           <a
-            href="https://maps.app.goo.gl/7TQbAiBQ5Ws5xzCV9"
+            href="https://maps.app.goo.gl/jdAmAKAYaKnaCXPK7"
             target="_blank"
             rel="noreferrer"
           >
@@ -256,7 +256,7 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
-            href="https://maps.app.goo.gl/j2vEkQ6qyqMNU4eU9"
+            href="https://maps.app.goo.gl/uXsF2dRXUfroBZoc7"
             target="_blank"
             rel="noreferrer"
           >
@@ -265,7 +265,7 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
-            href="https://maps.app.goo.gl/G2wrvpyN2Lr2JcEh7"
+            href="https://maps.app.goo.gl/F7pdaPyqqrRQcoM97"
             target="_blank"
             rel="noreferrer"
           >
@@ -274,7 +274,7 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
-            href="https://maps.app.goo.gl/G2wrvpyN2Lr2JcEh7"
+            href="https://maps.app.goo.gl/rFvv1roF5Fxe4kiZ7"
             target="_blank"
             rel="noreferrer"
           >
@@ -287,7 +287,7 @@ const ItineraryShort = () => {
         <li>
           Bakti sosial di{' '}
           <a
-            href="https://maps.app.goo.gl/zgyXZE5VfM2ACngEA"
+            href="https://maps.app.goo.gl/V7r2tfbWhEur7z1X6"
             target="_blank"
             rel="noreferrer"
           >
@@ -298,7 +298,7 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
-            href="https://maps.app.goo.gl/YfYbCfc4Hxzi1EDK9"
+            href="https://maps.app.goo.gl/GmyuxamSSoPm83yu7"
             target="_blank"
             rel="noreferrer"
           >
@@ -307,7 +307,7 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
-            href="https://maps.app.goo.gl/1NqaVdAaHh6aiTo29"
+            href="https://maps.app.goo.gl/9ntgtZ5uxSshUk4u5"
             target="_blank"
             rel="noreferrer"
           >
@@ -320,7 +320,7 @@ const ItineraryShort = () => {
         <li>
           Bakti sosial di{' '}
           <a
-            href="https://maps.app.goo.gl/pRpejXRBRwRpBUN38"
+            href="https://maps.app.goo.gl/V7r2tfbWhEur7z1X6"
             target="_blank"
             rel="noreferrer"
           >
@@ -331,7 +331,7 @@ const ItineraryShort = () => {
         </li>
         <li>
           <a
-            href="https://maps.app.goo.gl/YBQaa8XvFqrWLWfe6"
+            href="https://maps.app.goo.gl/jptAJfg5BRKouJkK8"
             target="_blank"
             rel="noreferrer"
           >
@@ -343,7 +343,7 @@ const ItineraryShort = () => {
       <ol>
         <li>
           <a
-            href="https://maps.app.goo.gl/teyh4jqDasuG1HAg6"
+            href="https://maps.app.goo.gl/FRqzfPrTY4pR6b1E9"
             target="_blank"
             rel="noreferrer"
           >
@@ -355,7 +355,7 @@ const ItineraryShort = () => {
       <ol>
         <li>
           <a
-            href="https://maps.app.goo.gl/teyh4jqDasuG1HAg6"
+            href="https://maps.app.goo.gl/dpoT6U1jExopbdWp8"
             target="_blank"
             rel="noreferrer"
           >
@@ -365,7 +365,7 @@ const ItineraryShort = () => {
         <li>
           Berpisah di{' '}
           <a
-            href="https://maps.app.goo.gl/ZmrXhgK42K7AJ8Dy6"
+            href="https://maps.app.goo.gl/jdAmAKAYaKnaCXPK7"
             target="_blank"
             rel="noreferrer"
           >
@@ -378,11 +378,11 @@ const ItineraryShort = () => {
 
       <p>
         <a
-          href="https://maps.app.goo.gl/pXuE4jzUSJU8AJqT8"
+          href="https://maps.app.goo.gl/8FQzQLJDWGSkddxE6"
           target="_blank"
           rel="noreferrer"
         >
-          <strong>Google Custom Maps</strong>
+          <strong>Google Maps list</strong>
         </a>
       </p>
 
@@ -798,10 +798,10 @@ const Contact = () => {
     <>
       <ul>
         <li>
-          <a href="tel:081298054631">081298054631</a>
+          Safira <a href="tel:081298054631">081298054631</a>
         </li>
         <li>
-          <a href="tel:081917081112">081917081112</a>
+          Acha <a href="tel:081917081112">081917081112</a>
         </li>
       </ul>
       <a
