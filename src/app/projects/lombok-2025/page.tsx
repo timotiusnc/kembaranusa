@@ -224,7 +224,7 @@ const Rate = () => {
         <li>Donasi bakti sosial pengobatan gigi</li>
         <li>
           Sertifikat baksos dengan Satuan Kredit Profesi (SKP) Kemenkes (untuk
-          dokter gigi)
+          semua tenaga medis)
         </li>
         <li>Dokumentasi</li>
         <li>
