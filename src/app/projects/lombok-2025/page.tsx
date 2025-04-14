@@ -33,8 +33,8 @@ export default function Projects() {
 
               <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
                 <p className="lead text-lg text-gray-800">
-                  Bakti sosial pengobatan dan penyuluhan kesehatan gigi bersama
-                  Kembara Nusa dan{' '}
+                  Bakti sosial pengobatan dan penyuluhan kesehatan gigi & mulut
+                  bersama Kembara Nusa dan{' '}
                   <a href="https://gigi.id" target="_blank" rel="noreferrer">
                     Gigi ID
                   </a>
