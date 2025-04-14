@@ -728,7 +728,10 @@ const Faqs = () => {
             Apakah baksos ini mendapat Satuan Kredit Profesi (SKP) Kemenkes?
           </strong>
         </p>
-        <p>Ya, baksos ini mendapat SKP Kemenkes khusus dokter gigi.</p>
+        <p>
+          Ya, baksos ini mendapat SKP Kemenkes untuk semua tenaga medis (dokter
+          gigi, dokter umum, perawat).
+        </p>
       </li>
 
       <li>
