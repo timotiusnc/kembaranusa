@@ -245,7 +245,7 @@ const Rate = () => {
 const ItineraryShort = () => {
   return (
     <>
-      <p className="font-bold">Hari 1 (Rabu, 23 Okt 2024)</p>
+      <p className="font-bold">Hari 1 (Rabu, 16 Jul 2025)</p>
       <ol>
         <li>
           Tiba di{' '}
@@ -287,7 +287,7 @@ const ItineraryShort = () => {
           </a>
         </li>
       </ol>
-      <p className="font-bold">Hari 2 (Kamis, 24 Okt 2024)</p>
+      <p className="font-bold">Hari 2 (Kamis, 17 Jul 2025)</p>
       <ol>
         <li>
           Bakti sosial di{' '}
@@ -320,7 +320,7 @@ const ItineraryShort = () => {
           </a>
         </li>
       </ol>
-      <p className="font-bold">Hari 3 (Jumat, 25 Okt 2024)</p>
+      <p className="font-bold">Hari 3 (Jumat, 18 Jul 2025)</p>
       <ol>
         <li>
           Bakti sosial di{' '}
@@ -344,7 +344,7 @@ const ItineraryShort = () => {
           </a>
         </li>
       </ol>
-      <p className="font-bold">Hari 4 (Sabtu, 26 Okt 2024)</p>
+      <p className="font-bold">Hari 4 (Sabtu, 19 Jul 2025)</p>
       <ol>
         <li>
           <a
@@ -356,7 +356,7 @@ const ItineraryShort = () => {
           </a>
         </li>
       </ol>
-      <p className="font-bold">Hari 5 (Minggu, 27 Okt 2024)</p>
+      <p className="font-bold">Hari 5 (Minggu, 20 Jul 2025)</p>
       <ol>
         <li>
           <a
@@ -398,183 +398,6 @@ const ItineraryShort = () => {
   )
 }
 
-const Itinerary = () => {
-  return (
-    <>
-      <h4>Rabu, 23 Okt 2024</h4>
-      <table>
-        <thead>
-          <tr>
-            <th className="w-20">Jam</th>
-            <th>Kegiatan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>09:45</td>
-            <td>Sampai di Sumba</td>
-          </tr>
-          <tr>
-            <td>12:00</td>
-            <td>Bertemu di meeting point: bandara Tambolaka (TMC)</td>
-          </tr>
-          <tr>
-            <td>14:00</td>
-            <td>Check-in di hotel Sinar Tambolaka</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td>Kopi sore: Talasi</td>
-          </tr>
-          <tr>
-            <td>18:00</td>
-            <td>Sunset di pantai Mananga Aba</td>
-          </tr>
-          <tr>
-            <td>19:00</td>
-            <td>Dinner di Sinar Tambolaka</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h4>Kamis, 24 Okt 2024</h4>
-      <table>
-        <thead>
-          <tr>
-            <th className="w-20">Jam</th>
-            <th>Kegiatan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>09:00</td>
-            <td>Bakti sosial hari #1: desa Waipaddi</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td>Perjalanan ke danau Waikuri</td>
-          </tr>
-          <tr>
-            <td>16:00</td>
-            <td>Mengagumi keindahan danau Waikuri</td>
-          </tr>
-          <tr>
-            <td>19:00</td>
-            <td>Makan malam di Dapur Sumba</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h4>Jumat, 25 Okt 2024</h4>
-      <table>
-        <thead>
-          <tr>
-            <th className="w-20">Jam</th>
-            <th>Kegiatan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>09:00</td>
-            <td>
-              Bakti sosial hari #2: Program Pengembangan Anak (PPA) Talitakum
-              Gereja Kristen Sumba (GKS) Mata - Tambolaka, Sumba Barat Daya
-            </td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td>Perjalanan ke pantai Mandorak</td>
-          </tr>
-          <tr>
-            <td>16:00</td>
-            <td>Berkontemplasi di pantai Mandorak</td>
-          </tr>
-          <tr>
-            <td>19:00</td>
-            <td>Makan malam di Gula Garam</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h4>Sabtu, 26 Okt 2024</h4>
-      <table>
-        <thead>
-          <tr>
-            <th className="w-20">Jam</th>
-            <th>Kegiatan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>06:30</td>
-            <td>Check-out</td>
-          </tr>
-          <tr>
-            <td>07:00</td>
-            <td>Perjalanan ke desa adat Prai Ijing</td>
-          </tr>
-          <tr>
-            <td>08:00</td>
-            <td>Mengagumi budaya Marapu di desa adat Prai Ijing </td>
-          </tr>
-          <tr>
-            <td>09:00</td>
-            <td>Perjalanan ke bukit Wairinding</td>
-          </tr>
-          <tr>
-            <td>11:30</td>
-            <td>Refleksi diri di bukit Wairinding</td>
-          </tr>
-          <tr>
-            <td>13:00</td>
-            <td>Makan siang di Casa Kandara</td>
-          </tr>
-          <tr>
-            <td>14:00</td>
-            <td>Check-in di Casa Kandara</td>
-          </tr>
-          <tr>
-            <td>15:30</td>
-            <td>Perjalanan ke bukit Hiliwuku</td>
-          </tr>
-          <tr>
-            <td>16:30</td>
-            <td>Menikmati keindahan alam bukit Hiliwuku</td>
-          </tr>
-          <tr>
-            <td>17:00</td>
-            <td>Menikmati keindahan alam bukit Merdeka</td>
-          </tr>
-          <tr>
-            <td>16:30</td>
-            <td>Menikmati keindahan alam bukit Piarakuku</td>
-          </tr>
-          <tr>
-            <td>16:30</td>
-            <td>Makan malam di Local Three cafe & eatery</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <h4>Minggu, 27 Okt 2024</h4>
-      <table>
-        <thead>
-          <tr>
-            <th className="w-20">Jam</th>
-            <th>Kegiatan</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>06:35</td>
-            <td>Kembali ke Jakarta (via Waingapu)</td>
-          </tr>
-        </tbody>
-      </table>
-    </>
-  )
-}
-
 const Flight = () => {
   return (
     <>
@@ -607,40 +430,13 @@ const Flight = () => {
             <td>06:00</td>
             <td>08:55</td>
           </tr>
-          <tr>
-            <td>CGK - LOP</td>
-            <td>Lion Air</td>
-            <td>JT-656</td>
-            <td>07:00</td>
-            <td>09:55</td>
-          </tr>
-          <tr>
-            <td>CGK - LOP</td>
-            <td>Citilink</td>
-            <td>QG-640</td>
-            <td>08:40</td>
-            <td>11:40</td>
-          </tr>
+
           <tr>
             <td>CGK - LOP</td>
             <td>Pelita Air</td>
             <td>IP-140</td>
             <td>06:20</td>
             <td>09:15</td>
-          </tr>
-          <tr>
-            <td>CGK - LOP</td>
-            <td>Batik Air</td>
-            <td>ID-6658</td>
-            <td>08:50</td>
-            <td>11:45</td>
-          </tr>
-          <tr>
-            <td>CGK - LOP</td>
-            <td>Garuda Indonesia</td>
-            <td>GA-432</td>
-            <td>07:30</td>
-            <td>10:30</td>
           </tr>
         </tbody>
       </table>
@@ -668,45 +464,10 @@ const Flight = () => {
         <tbody>
           <tr>
             <td>LOP - CGK</td>
-            <td>Super Air Jet</td>
-            <td>IU-769</td>
-            <td>06:00</td>
-            <td>07:00</td>
-          </tr>
-          <tr>
-            <td>LOP - CGK</td>
-            <td>Lion Air</td>
-            <td>JT-647</td>
-            <td>10:40</td>
-            <td>11:40</td>
-          </tr>
-          <tr>
-            <td>LOP - CGK</td>
-            <td>Citilink</td>
-            <td>QG-641</td>
-            <td>12:10</td>
-            <td>13:10</td>
-          </tr>
-          <tr>
-            <td>LOP - CGK</td>
-            <td>Pelita Air</td>
-            <td>IP-141</td>
-            <td>10:20</td>
-            <td>10:55</td>
-          </tr>
-          <tr>
-            <td>LOP - CGK</td>
             <td>Batik Air</td>
-            <td>ID-6659</td>
-            <td>12:25</td>
-            <td>13:25</td>
-          </tr>
-          <tr>
-            <td>LOP - CGK</td>
-            <td>Garuda Indonesia</td>
-            <td>GA-435</td>
-            <td>17:50</td>
-            <td>18:50</td>
+            <td>ID-6657</td>
+            <td>15:30</td>
+            <td>16:30</td>
           </tr>
         </tbody>
       </table>
@@ -792,9 +553,8 @@ const Faqs = () => {
           </strong>
         </p>
         <p>
-          Bisa, namun hanya berlaku untuk dokter gigi dari PDGI cabang Lombok /
-          NTB. Untuk pendaftaran baksos saja harap menghubungi nomor contact
-          person (CP) yang tertera.
+          Bisa, Untuk pendaftaran baksos saja harap menghubungi nomor{' '}
+          <em>contact person</em> (CP) yang tertera.
         </p>
       </li>
     </ol>
