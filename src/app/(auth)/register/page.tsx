@@ -71,8 +71,8 @@ export default function Register() {
                   dialihkan ke peserta lain
                 </li>
                 <li>
-                  • Transfer ke BCA Digital (Blu) 0076-4608-4381 a.n. Stella
-                  Valentina
+                  • Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
+                  <strong>Safira Khairina</strong>
                 </li>
               </ul>
             </div>

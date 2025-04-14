@@ -205,7 +205,10 @@ const Rate = () => {
           Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
           peserta lain
         </li>
-        <li>Transfer ke BCA 6330751132 a.n. Safira Khairina</li>
+        <li>
+          Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
+          <strong>Safira Khairina</strong>
+        </li>
       </ul>
       <p className="font-bold italic">Include:</p>
       <ol>
