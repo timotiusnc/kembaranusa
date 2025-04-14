@@ -33,11 +33,11 @@ export default function Projects() {
 
               <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
                 <p className="lead text-lg text-gray-800">
-                  Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan
-                  kesehatan gigi dan mulut.
+                  Bakti sosial pengobatan dan penyuluhan kesehatan gigi bersama
+                  Kembara Nusa dan Gigi ID.
                   <br />
                   Bakti sosial ini memberikan sertifikat Satuan Kredit Profesi
-                  (SKP) Kemenkes untuk dokter gigi.
+                  (SKP) Kemenkes untuk semua tenaga medis.
                 </p>
 
                 <div className="mt-8 flex justify-center">
@@ -205,9 +205,7 @@ const Rate = () => {
           Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
           peserta lain
         </li>
-        <li>
-          Transfer ke BCA Digital (Blu) 0076-4608-4381 a.n. Stella Valentina
-        </li>
+        <li>Transfer ke BCA 6330751132 a.n. Safira Khairina</li>
       </ul>
       <p className="font-bold italic">Include:</p>
       <ol>
@@ -771,9 +769,9 @@ const Faqs = () => {
           </strong>
         </p>
         <p>
-          Maaf 🙏 untuk saat ini SKP Kemenkes hanya untuk anggota Persatuan
-          Dokter Gigi Indonesia (PDGI). Namun dokter umum tetap bisa mengikuti
-          baksos ini untuk membantu pemeriksaan kesehatan umum.
+          Semua tenaga medis (dokter gigi, dokter umum, perawat) mendapatkan SKP
+          Kemenkes. Dokter umum dan perawat bisa mengikuti baksos ini untuk
+          membantu pemeriksaan kesehatan umum.
         </p>
       </li>
       <li>

@@ -9,7 +9,7 @@ import FacebookPixel from '@/components/FacebookPixel'
 export const metadata: Metadata = {
   title: {
     template: '%s - Kembara Nusa',
-    default: 'Kembara Nusa - Mengembara nusantara',
+    default: 'Kembara Nusa - Mengembara Nusantara',
   },
   openGraph: {
     images: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'Mengembara nusantara dan memberikan pelayanan kesehatan gigi di daerah 3T (tertinggal, terdepan, dan terluar) di Indonesia.',
   verification: {
     other: {
-      'facebook-domain-verification': "gkjqu4va5i00kqt2487wmutscxkegh",
+      'facebook-domain-verification': 'gkjqu4va5i00kqt2487wmutscxkegh',
     },
   },
 }
