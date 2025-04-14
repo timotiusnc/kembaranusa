@@ -553,7 +553,7 @@ const Faqs = () => {
           </strong>
         </p>
         <p>
-          Bisa, Untuk pendaftaran baksos saja harap menghubungi nomor{' '}
+          Bisa, untuk pendaftaran baksos saja harap menghubungi nomor{' '}
           <em>contact person</em> (CP) yang tertera.
         </p>
       </li>
