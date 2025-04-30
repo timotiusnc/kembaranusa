@@ -8,6 +8,15 @@ import { redirect } from 'next/navigation'
 const MAX_FILE_SIZE = 5 * 1024 * 1024 // 5 MB
 
 export async function createRegistration(prevData: any, formData: FormData) {
+  const isRegistrationOpen =
+    process.env.NEXT_PUBLIC_OPEN_REGISTRATION === undefined ||
+    process.env.NEXT_PUBLIC_OPEN_REGISTRATION === 'true'
+
+  if (!isRegistrationOpen) {
+    console.log(`Registration closed`, formData)
+    return { message: `Registration closed` }
+  }
+
   const registrationData = getRegistrationData(formData)
   console.log({ registrationData })
 

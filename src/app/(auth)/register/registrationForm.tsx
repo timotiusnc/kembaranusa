@@ -44,7 +44,6 @@ const isDefaultValue = false
 
 export function RegistrationForm() {
   const [state, formAction] = useFormState(createRegistration, null)
-  console.log({ state })
 
   return (
     <form

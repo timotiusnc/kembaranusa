@@ -11,6 +11,10 @@ export const metadata: Metadata = {
 }
 
 export default function Register() {
+  const isRegistrationOpen =
+    process.env.NEXT_PUBLIC_OPEN_REGISTRATION === undefined ||
+    process.env.NEXT_PUBLIC_OPEN_REGISTRATION === 'true'
+
   return (
     <>
       <Header />
@@ -108,11 +112,25 @@ export default function Register() {
                 Klik di sini untuk informasi lebih lanjut
               </a>
             </div>
-            <RegistrationForm />
+            {isRegistrationOpen ? <RegistrationForm /> : <RegistrationClosed />}
           </Container>
         </section>
       </main>
       <Footer />
     </>
+  )
+}
+
+const RegistrationClosed = () => {
+  return (
+    <div className="mt-8 max-w-2xl md:mx-auto xl:max-w-none">
+      <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
+        Pendaftaran telah ditutup .
+        <br />
+        Terima kasih untuk antusiasme para volunteer ❤️.
+        <br />
+        Sampai bertemu di Lombok 👋.
+      </h3>
+    </div>
   )
 }
