@@ -1,3 +1,9 @@
+# Kembara Nusa
+
+[kembaranusa.org](https://kembaranusa.org)
+
+Mengembara nusantara dan memberikan pelayanan kesehatan gigi di daerah 3T (tertinggal, terdepan, dan terluar) di Indonesia
+
 # Salient
 
 Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
