@@ -127,10 +127,12 @@ const uploadFile = async (uploadedFile: File, registrationData: any) => {
   const folderId = process.env.FOLDER_ID || ''
   const timestamp = new Date().toISOString()
 
+  const sanitizedTimestamp = timestamp
+    .replaceAll('-', '_')
+    .replaceAll(':', '_')
+    .replaceAll('.', '_')
   const metadata = {
-    name: `${timestamp.replaceAll(/[-:.]/g, '-')}_${registrationData.email}_${
-      uploadedFile.name
-    }`,
+    name: `${sanitizedTimestamp}_${registrationData.email}_${uploadedFile.name}`,
     parents: [folderId],
   }
 
