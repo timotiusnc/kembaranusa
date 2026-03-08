@@ -7,6 +7,16 @@ import Link from 'next/link'
 // Mock data for past projects
 const pastProjects = [
   {
+    id: 8,
+    name: 'Lombok',
+    description: 'Pengobatan gigi dan mulut Lombok',
+    image: '/images/projects/lombok-2025/lombok.jpg',
+    year: '2025',
+    date: '16 - 20 Juli 2025',
+    location: 'Lombok, NTT',
+    link: '/projects/lombok-2025',
+  },
+  {
     id: 7,
     name: 'Sumba',
     description: 'Pengobatan dan penyuluhan kesehatan gigi dan mulut Sumba',
@@ -89,7 +99,7 @@ export default function Projects() {
                 Kegiatan Kembara Nusa
               </h2>
               <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700">
-                Proyek-Proyek Kebanggaan Kami
+                Jejak Kegiatan Kami
               </h3>
             </div>
           </Container>

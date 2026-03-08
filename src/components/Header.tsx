@@ -85,13 +85,13 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="/register">Call for Volunteers</MobileNavLink>
+            <MobileNavLink href="/register">Rekrutment Relawan</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/about">Tentang Kami</MobileNavLink>
-            <MobileNavLink href="/projects/lombok-2025">
-              Latest Project
+            <MobileNavLink href="/projects/alor-2026">
+              Kegiatan Terkini
             </MobileNavLink>
-            <MobileNavLink href="/projects">Past Projects</MobileNavLink>
+            <MobileNavLink href="/projects">Kegiatan Sebelumnya</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -110,13 +110,13 @@ export function Header() {
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/about">Tentang Kami</NavLink>
-              <NavLink href="/projects/lombok-2025">Latest Project</NavLink>
-              <NavLink href="/projects">Past Projects</NavLink>
+              <NavLink href="/projects/alor-2026">Kegiatan Terkini</NavLink>
+              <NavLink href="/projects">Kegiatan Sebelumnya</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <Button href="/register" color="blue">
-              <span>Call for Volunteers</span>
+              <span>Rekrutmen Relawan</span>
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
