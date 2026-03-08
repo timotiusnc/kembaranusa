@@ -387,7 +387,24 @@ const ItineraryShort = () => {
                 <strong>Diving / Snorkling</strong>
               </a>
             </li>
-            <li>Wisata Kain Tenun di Ternate / Sopi Pura</li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/1fmjsFxE6jRGfMZW7?g_st=iw"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Kain Tenun di Ternate</strong>
+              </a>{' '}
+              /{' '}
+              <a
+                href="https://maps.app.goo.gl/i4Zgn65k4ES9QzVn8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Sopi Pura</strong>
+              </a>
+            </li>
             <li>
               Wisata{' '}
               <a
