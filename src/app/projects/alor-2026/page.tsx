@@ -8,7 +8,7 @@ import { type Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Bakti Sosial & Explore Alor 2026',
   description:
-    'Kembara Nusa mengadakan bakti sosial pengobatan dan penyuluhan kesehatan gigi dan mulut di Alor, NTT.',
+    'Kembara Nusa (bekerja sama dengan Gigi ID dan Melangkiki Committee) mengadakan bakti sosial pengobatan dan penyuluhan kesehatan gigi dan mulut di Alor, NTT.',
 }
 
 export default function Projects() {
