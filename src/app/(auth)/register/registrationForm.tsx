@@ -6,6 +6,7 @@ import { ImageUploadField } from '@/components/ImageUpload'
 import clsx from 'clsx'
 
 import { createRegistration } from './registration'
+import { useActionState } from 'react'
 import { useFormState, useFormStatus } from 'react-dom'
 
 const sexs = [
@@ -43,7 +44,7 @@ const RedStar = () => <span className="text-red-500">*</span>
 const isDefaultValue = false
 
 export function RegistrationForm() {
-  const [state, formAction] = useFormState(createRegistration, null)
+  const [state, formAction] = useActionState(createRegistration, null)
 
   return (
     <form
