@@ -34,7 +34,11 @@ export default function Projects() {
               <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
                 <p className="lead text-lg text-gray-800">
                   Bakti sosial pengobatan dan penyuluhan kesehatan gigi & mulut
-                  bersama Kembara Nusa dan Melangkiki Committee.
+                  bersama <b>Kembara Nusa</b>,{' '}
+                  <a href="https://gigi.id" target="_blank" rel="noreferrer">
+                    <b>Gigi ID</b>
+                  </a>{' '}
+                  , dan <b>Melangkiki Committee</b>.
                   <br />
                   Bakti sosial ini memberikan sertifikat Satuan Kredit Profesi
                   (SKP) Kemenkes untuk semua tenaga medis.
@@ -170,21 +174,33 @@ const Location = () => {
     <ul>
       <li>
         Meeting & Departure Point:{' '}
-        <strong>Bandara Mali, Alor, Nusa Tenggara Timur</strong>
+        <a
+          href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
+        </a>
       </li>
       <li>
         Lokasi Baksos #1:{' '}
-        <strong>
-          Desa Kokar, Kecamatan Alor Barat Laut / Air Kenari, Kecamatan Teluk
-          Mutiara
-        </strong>
+        <a
+          href="https://maps.app.goo.gl/8P6etWFJHxfzCn4u7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Desa Kokar, Kecamatan Alor Barat Laut</strong>
+        </a>
       </li>
       <li>
         Lokasi Baksos #2:{' '}
-        <strong>
-          Posyandu Lipa B, Kecamatan Alor Barat Laut / Air Kenari, Kecamatan
-          Teluk Mutiara
-        </strong>
+        <a
+          href="https://maps.app.goo.gl/Z8SibUWj41asVtTc7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Posyandu Lipa B, Kecamatan Teluk Mutiara</strong>
+        </a>
       </li>
     </ul>
   )
@@ -233,8 +249,37 @@ const ItineraryShort = () => {
         <div className="rounded-lg bg-white p-4 shadow-sm">
           <h4 className="mb-2 font-bold text-blue-600">Hari 1:</h4>
           <ul className="list-disc pl-5">
-            <li>Tiba di Bandara Mali, Alor</li>
-            <li>Wisata Tongke Lima, Aimoli</li>
+            <li>
+              Tiba di{' '}
+              <a
+                href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
+              </a>
+            </li>
+
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/RjZs3NLGe9ckEoym6"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Desa Takpala</strong>
+              </a>
+            </li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/grV975jd6U4dysb89"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Sunset Batu Putih</strong>
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -242,10 +287,55 @@ const ItineraryShort = () => {
           <h4 className="mb-2 font-bold text-blue-600">Hari 2:</h4>
           <ul className="list-disc pl-5">
             <li>
-              Bakti sosial pengobatan gigi di Desa Kokar, Kecamatan Alor Barat
-              Laut
+              Bakti sosial di{' '}
+              <a
+                href="https://maps.app.goo.gl/8P6etWFJHxfzCn4u7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Desa Kokar, Kecamatan Alor Barat Laut</strong>
+              </a>
             </li>
-            <li>Wisata Hulnani</li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/anuz8ThiSrAwjdvL7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Kabola</strong>
+              </a>
+            </li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/vxDm5kes1LkEnWS9A"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Al-Quran Tertua di Alor Besar</strong>
+              </a>
+            </li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/846HFRhgZPyMD4iq8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Hulnani</strong>
+              </a>
+            </li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/m3ZSmqGKVysRioW59"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Sunset Tongke Lima</strong>
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -253,26 +343,77 @@ const ItineraryShort = () => {
           <h4 className="mb-2 font-bold text-blue-600">Hari 3:</h4>
           <ul className="list-disc pl-5">
             <li>
-              Bakti sosial pengobatan gigi di Desa Kokar, Kecamatan Alor Barat
-              Laut atau di Air Kenari, Kecamatan Teluk Mutiara
+              Bakti sosial di{' '}
+              <a
+                href="https://maps.app.goo.gl/Z8SibUWj41asVtTc7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Posyandu Lipa B, Kecamatan Teluk Mutiara</strong>
+              </a>
             </li>
-            <li>Wisata Sebanjar atau Wisata Desa Takpala</li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/PMm6Fc7mV3Xg8Dhq6"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Pantai Mali</strong>
+              </a>
+            </li>
+            <li>
+              Trip{' '}
+              <a
+                href="https://maps.app.goo.gl/2yWTVBt1XtMxU9qw8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Dugong (Mawardi)</strong>
+              </a>
+            </li>
           </ul>
         </div>
 
         <div className="rounded-lg bg-white p-4 shadow-sm">
           <h4 className="mb-2 font-bold text-blue-600">Hari 4:</h4>
           <ul className="list-disc pl-5">
-            <li>Diving atau snorkling</li>
-            <li>Wisata Kain Tenun</li>
-            <li>Wisata Dugong</li>
+            <li>
+              <a
+                href="https://maps.app.goo.gl/hoAmQYZFVqLt4V2w7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Diving / Snorkling</strong>
+              </a>
+            </li>
+            <li>Wisata Kain Tenun di Ternate / Sopi Pura</li>
+            <li>
+              Wisata{' '}
+              <a
+                href="https://maps.app.goo.gl/hoAmQYZFVqLt4V2w7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Kepa / Alor Kecil</strong>
+              </a>
+            </li>
           </ul>
         </div>
 
         <div className="rounded-lg bg-white p-4 shadow-sm">
           <h4 className="mb-2 font-bold text-blue-600">Hari 5:</h4>
           <ul className="list-disc pl-5">
-            <li>Berpisah di Bandara Mali, Alor</li>
+            <li>
+              Berpisah di{' '}
+              <a
+                href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
+              </a>
+            </li>
           </ul>
         </div>
 
