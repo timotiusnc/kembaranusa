@@ -28,7 +28,7 @@ export default function Thank() {
             </div>
 
             <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
-              <p>Sampai bertemu di Lombok 👋</p>
+              <p>Sampai bertemu di Alor 👋</p>
             </div>
           </Container>
         </section>

@@ -28,57 +28,42 @@ export default function Register() {
             <div className="max-w-2xl text-center md:mx-auto xl:max-w-none">
               <h2 className="bg-gradient-to-r from-blue-600 to-red-500 bg-clip-text font-display text-3xl tracking-tight text-transparent sm:text-4xl md:text-5xl">
                 Registrasi Bakti Sosial + Explore{' '}
-                <span className="text-red-500">Lombok</span>
+                <span className="text-red-500">Alor</span>
               </h2>
               <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
-                16 - 20 Juli 2025 (5D4N)
+                Juli 2026 (5D4N)
               </h3>
             </div>
 
             <div className="mt-6">
               <p>
-                📍 Lokasi: <strong>Lombok, Nusa Tenggara Barat</strong>
+                📍 Lokasi: <strong>Alor, Nusa Tenggara Timur</strong>
               </p>
               <p>
-                🗓️ Tanggal: <strong>16 - 20 Juli 2025 (5D4N)</strong>
+                🗓️ Tanggal: <strong>Juli 2026 (5D4N)</strong>
               </p>
               <p className="mt-4">
                 <span className="italic">
                   <strong>✈️ Arrival & Departure</strong> point:
                 </span>{' '}
                 <a
-                  href="https://maps.app.goo.gl/jdAmAKAYaKnaCXPK7"
+                  href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
                   target="_blank"
                   rel="noreferrer"
                   className="underline"
                 >
-                  <strong>
-                    Lombok Intl Airport (Lombok) - Lombok Tengah, Nusa Tenggara
-                    Barat
-                  </strong>
+                  <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
                 </a>
               </p>
             </div>
 
             <div className="mt-6">
               <div>
-                💰 <span className="italic">Rate</span>:{' '}
-                <strong>Rp 4.950.000 / pax</strong>
+                💰 <span className="italic">Rate</span>: <strong>TBA</strong>
               </div>
-              <ul>
-                <li>• DP 30% (Rp 1.485.000) saat pendaftaran</li>
-                <li>
-                  • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
-                </li>
-                <li>
-                  • Semua pembayaran tidak dapat di-refund, namun dapat
-                  dialihkan ke peserta lain
-                </li>
-                <li>
-                  • Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
-                  <strong>Safira Khairina</strong>
-                </li>
-              </ul>
+              <p className="mt-2 italic text-gray-600">
+                Informasi biaya dan detail pembayaran akan segera diumumkan.
+              </p>
             </div>
             <div className="mt-8">
               <strong>📞 CP:</strong>
@@ -86,13 +71,13 @@ export default function Register() {
                 <li>
                   • Safira{' '}
                   <a href="tel:081298054631" className="underline">
-                    0812-9805-4631
+                    081298054631
                   </a>
                 </li>
                 <li>
-                  • Acha{' '}
-                  <a href="tel:081917081112" className="underline">
-                    0819-1708-1112
+                  • Stella{' '}
+                  <a href="tel:08118330500" className="underline">
+                    08118330500
                   </a>
                 </li>
               </ul>
@@ -108,11 +93,15 @@ export default function Register() {
               </a>
             </div>
             <div className="mt-8">
-              <a href="/projects/lombok-2025" className="font-bold underline">
+              <a href="/projects/alor-2026" className="font-bold underline">
                 Klik di sini untuk informasi lebih lanjut
               </a>
             </div>
-            {isRegistrationOpen ? <RegistrationForm /> : <RegistrationClosed />}
+            {isRegistrationOpen ? (
+              <RegistrationForm />
+            ) : (
+              <RegistrationInPreparation />
+            )}
           </Container>
         </section>
       </main>
@@ -130,6 +119,20 @@ const RegistrationClosed = () => {
         Terima kasih untuk antusiasme para volunteer ❤️.
         <br />
         Sampai bertemu di Lombok 👋.
+      </h3>
+    </div>
+  )
+}
+
+const RegistrationInPreparation = () => {
+  return (
+    <div className="mt-8 max-w-2xl md:mx-auto xl:max-w-none">
+      <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
+        Pendaftaran untuk trip Alor 2026 sedang dalam persiapan.
+        <br />
+        Informasi lebih lanjut akan segera diumumkan.
+        <br />
+        Terima kasih untuk antusiasme para volunteer ❤️
       </h3>
     </div>
   )
