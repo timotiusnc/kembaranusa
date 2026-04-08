@@ -31,7 +31,7 @@ export default function Register() {
                 <span className="text-red-500">Alor</span>
               </h2>
               <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
-                Juli 2026 (5D4N)
+                22 - 26 Juli 2026 (5D4N)
               </h3>
             </div>
 
@@ -40,7 +40,7 @@ export default function Register() {
                 📍 Lokasi: <strong>Alor, Nusa Tenggara Timur</strong>
               </p>
               <p>
-                🗓️ Tanggal: <strong>Juli 2026 (5D4N)</strong>
+                🗓️ Tanggal: <strong>22 - 26 Juli 2026 (5D4N)</strong>
               </p>
               <p className="mt-4">
                 <span className="italic">
@@ -59,11 +59,23 @@ export default function Register() {
 
             <div className="mt-6">
               <div>
-                💰 <span className="italic">Rate</span>: <strong>TBA</strong>
+                💰 <span className="italic">Rate</span>:{' '}
+                <strong>Rp 5.550.000 / pax</strong>
               </div>
-              <p className="mt-2 italic text-gray-600">
-                Informasi biaya dan detail pembayaran akan segera diumumkan.
-              </p>
+              <ul>
+                <li>• DP 30% (Rp 1.665.000) saat pendaftaran</li>
+                <li>
+                  • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
+                </li>
+                <li>
+                  • Semua pembayaran tidak dapat di-refund, namun dapat
+                  dialihkan ke peserta lain
+                </li>
+                <li>
+                  • Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
+                  <strong>Safira Khairina</strong>
+                </li>
+              </ul>
             </div>
             <div className="mt-8">
               <strong>📞 CP:</strong>

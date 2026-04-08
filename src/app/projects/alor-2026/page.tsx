@@ -28,7 +28,7 @@ export default function Projects() {
               </h2>
 
               <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
-                Juli 2026 (5D4N)
+                22-26 Juli 2026 (5D4N)
               </h3>
 
               <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">

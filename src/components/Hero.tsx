@@ -33,7 +33,7 @@ export function Hero() {
         </span>
       </h1>
       <p className="mx-auto mt-6 max-w-3xl text-lg tracking-tight text-slate-700">
-        <strong>Juli 2026 (5D4N)</strong> <br />
+        <strong>22-26 Juli 2026 (5D4N)</strong> <br />
         Bakti Sosial Pengobatan dan Penyuluhan Kesehatan Gigi dan Mulut (SKP
         Kemenkes)
         <br />+ Explore Alor, Nusa Tenggara Timur
