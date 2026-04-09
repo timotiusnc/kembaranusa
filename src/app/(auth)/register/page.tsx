@@ -62,10 +62,10 @@ export default function Register() {
             <div className="mt-6">
               <div>
                 💰 <span className="italic">Rate</span>:{' '}
-                <strong>Rp 5.550.000 / pax</strong>
+                <strong>Rp 5.650.000 / pax</strong>
               </div>
               <ul>
-                <li>• DP 30% (Rp 1.665.000) saat pendaftaran</li>
+                <li>• DP 30% (Rp 1.695.000) saat pendaftaran</li>
                 <li>
                   • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
                 </li>

@@ -212,9 +212,9 @@ const Location = () => {
 const Rate = () => {
   return (
     <>
-      <h5 className="font-bold">Rp 5.550.000</h5>
+      <h5 className="font-bold">Rp 5.650.000</h5>
       <ul>
-        <li>DP 30% (Rp 1.665.000) saat pendaftaran</li>
+        <li>DP 30% (Rp 1.695.000) saat pendaftaran</li>
         <li>Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H</li>
         <li>
           Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
