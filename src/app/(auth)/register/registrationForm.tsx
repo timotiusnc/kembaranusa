@@ -329,12 +329,12 @@ export function RegistrationForm() {
       </fieldset>
 
       <ImageUploadField
-        label="Upload bukti pendaftaran (DP Rp 1.665.000)"
+        label="Upload bukti pendaftaran (DP Rp 1.695.000)"
         name="registration_proof"
         className="required"
       />
       <div className="col-span-full hidden font-bold italic text-red-500">
-        Bukti pendaftaran (DP Rp 1.665.000) harap dikirimkan melalui IG{' '}
+        Bukti pendaftaran (DP Rp 1.695.000) harap dikirimkan melalui IG{' '}
         <a
           href="https://instagram.com/kembara.nusa"
           target="_blank"
