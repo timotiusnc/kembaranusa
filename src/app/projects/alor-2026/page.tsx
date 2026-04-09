@@ -2,6 +2,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { QuotaAlert } from '@/components/QuotaAlert'
 import { InstagramSvg } from '@/components/logo/InstagramSvg'
 import { type Metadata } from 'next'
 
@@ -30,6 +31,8 @@ export default function Projects() {
               <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
                 22-26 Juli 2026 (5D4N)
               </h3>
+
+              <QuotaAlert className="mt-4" />
 
               <div className="prose mt-6 max-w-2xl md:mx-auto xl:max-w-none">
                 <p className="lead text-lg text-gray-800">

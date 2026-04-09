@@ -1,13 +1,10 @@
+'use client'
+
 import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import { QuotaAlert } from '@/components/QuotaAlert'
 import knLogo from '@/images/kembaranusa.png'
 
 export function Hero() {
@@ -38,6 +35,7 @@ export function Hero() {
         Kemenkes)
         <br />+ Explore Alor, Nusa Tenggara Timur
       </p>
+      <QuotaAlert className="mx-auto mt-6 max-w-md" />
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Daftar Sekarang</Button>
         <Button href="/projects/alor-2026" variant="outline">

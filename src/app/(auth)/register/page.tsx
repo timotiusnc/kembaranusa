@@ -1,6 +1,7 @@
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { QuotaAlert } from '@/components/QuotaAlert'
 import { type Metadata } from 'next'
 
 import { RegistrationForm } from './registrationForm'
@@ -33,6 +34,7 @@ export default function Register() {
               <h3 className="mt-2 font-display text-lg tracking-tight text-gray-700 sm:text-xl md:text-2xl">
                 22 - 26 Juli 2026 (5D4N)
               </h3>
+              <QuotaAlert className="mt-4" />
             </div>
 
             <div className="mt-6">

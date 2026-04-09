@@ -7,7 +7,7 @@ import clsx from 'clsx'
 
 import { createRegistration } from './registration'
 import { useActionState } from 'react'
-import { useFormState, useFormStatus } from 'react-dom'
+import { useFormStatus } from 'react-dom'
 
 const sexs = [
   { id: 'laki', title: 'Laki-laki' },
@@ -16,7 +16,7 @@ const sexs = [
 
 const volunteers = [
   { id: 'dokter-gigi', title: 'Dokter gigi' },
-  { id: 'dokter-umum', title: 'Dokter umum' },
+  // { id: 'dokter-umum', title: 'Dokter umum' },
   { id: 'non-medis', title: 'Non-medis' },
 ]
 
