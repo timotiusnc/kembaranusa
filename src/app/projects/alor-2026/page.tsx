@@ -259,7 +259,9 @@ const ItineraryShort = () => {
     <>
       <div className="space-y-4">
         <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">Hari 1:</h4>
+          <h4 className="mb-2 font-bold text-blue-600">
+            Hari 1: Rabu, 22 Juli 2026
+          </h4>
           <ul className="list-disc pl-5">
             <li>
               Tiba di{' '}
@@ -296,7 +298,9 @@ const ItineraryShort = () => {
         </div>
 
         <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">Hari 2:</h4>
+          <h4 className="mb-2 font-bold text-blue-600">
+            Hari 2: Kamis, 23 Juli 2026
+          </h4>
           <ul className="list-disc pl-5">
             <li>
               Bakti sosial di{' '}
@@ -352,7 +356,9 @@ const ItineraryShort = () => {
         </div>
 
         <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">Hari 3:</h4>
+          <h4 className="mb-2 font-bold text-blue-600">
+            Hari 3: Jumat, 24 Juli 2026
+          </h4>
           <ul className="list-disc pl-5">
             <li>
               Bakti sosial di{' '}
@@ -388,7 +394,9 @@ const ItineraryShort = () => {
         </div>
 
         <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">Hari 4:</h4>
+          <h4 className="mb-2 font-bold text-blue-600">
+            Hari 4: Sabtu, 25 Juli 2026
+          </h4>
           <ul className="list-disc pl-5">
             <li>
               <a
@@ -431,7 +439,9 @@ const ItineraryShort = () => {
         </div>
 
         <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">Hari 5:</h4>
+          <h4 className="mb-2 font-bold text-blue-600">
+            Hari 5: Minggu, 26 Juli 2026
+          </h4>
           <ul className="list-disc pl-5">
             <li>
               Berpisah di{' '}
