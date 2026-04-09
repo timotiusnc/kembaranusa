@@ -77,7 +77,14 @@ export function RegistrationForm() {
         required
         defaultValue={isDefaultValue ? 'Timmy' : ''}
       />
-
+      <TextField
+        className="col-span-full"
+        label="Nomor Pokok Anggota (NPA) PDGI"
+        desc="(diisi oleh relawan dokter gigi saja untuk keperluan SKP)"
+        name="npa_pdgi"
+        type="text"
+        defaultValue={isDefaultValue ? '1234567890' : ''}
+      />
       <TextField
         className="col-span-full"
         label="Nomor HP"
