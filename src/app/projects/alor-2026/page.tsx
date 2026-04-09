@@ -209,10 +209,19 @@ const Location = () => {
 const Rate = () => {
   return (
     <>
-      <h5 className="font-bold">TBA</h5>
-      <p className="italic text-gray-600">
-        Informasi biaya dan detail pembayaran akan segera diumumkan.
-      </p>
+      <h5 className="font-bold">Rp 5.550.000</h5>
+      <ul>
+        <li>DP 30% (Rp 1.665.000) saat pendaftaran</li>
+        <li>Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H</li>
+        <li>
+          Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
+          peserta lain
+        </li>
+        <li>
+          Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
+          <strong>Safira Khairina</strong>
+        </li>
+      </ul>
 
       <p className="font-bold italic">Include:</p>
       <ol>
@@ -445,9 +454,68 @@ const ItineraryShort = () => {
 const Flight = () => {
   return (
     <>
-      <p className="italic text-gray-600">
-        Informasi opsi penerbangan akan segera diumumkan.
-      </p>
+      <h3>Berangkat</h3>
+      <h4>
+        <a
+          href="https://www.tiket.com/en-id/flights/search?d=CGK&a=ARD&date=2026-07-22&adult=1&child=0&infant=0&class=economy&dType=AIRPORT&aType=AIRPORT&dLabel=Jakarta&aLabel=Alor&type=depart&flexiFare=true"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Jakarta (CGK) - Mali Airport (ARD) – 22 Jul 2026
+        </a>
+        <br />
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Rute</th>
+            <th>Maskapai</th>
+            <th>Kode</th>
+            <th>Berangkat</th>
+            <th>Tiba</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CGK - ARD</td>
+            <td>Batik Air + Wings Air</td>
+            <td>ID-6540 + IW-1943</td>
+            <td>02:00</td>
+            <td>09:40</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Kembali</h3>
+      <h4>
+        <a
+          href="https://www.tiket.com/en-id/flights/search?d=ARD&a=CGK&date=2026-07-26&adult=1&child=0&infant=0&class=economy&dType=AIRPORT&aType=AIRPORT&dLabel=Alor&aLabel=Jakarta&type=depart&flexiFare=true"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Mali Airport (ARD) - Jakarta (CGK) – 26 Jul 2026
+        </a>
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Rute</th>
+            <th>Maskapai</th>
+            <th>Kode</th>
+            <th>Berangkat</th>
+            <th>Tiba</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ARD - CGK</td>
+            <td>Wings Air + Lion Air</td>
+            <td>IW-1942 + JT-695</td>
+            <td>10:05</td>
+            <td>18:30</td>
+          </tr>
+        </tbody>
+      </table>
     </>
   )
 }
@@ -465,7 +533,7 @@ const ToBringList = () => {
       <ol>
         <li>Sepatu / sandal gunung tahan air</li>
         <ul>
-          <li>Agar nyaman saat di pantai / air terjun</li>
+          <li>Agar nyaman saat di pantai</li>
         </ul>
         <li>
           <em>Sunglasses</em>
