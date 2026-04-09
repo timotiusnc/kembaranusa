@@ -23,7 +23,7 @@ export default function Thank() {
                 ❤️ Terima Kasih ❤️
               </h2>
               <h3 className="mt-2 font-display text-lg tracking-tight sm:text-xl md:text-2xl">
-                telah mendaftar menjadi volunteer
+                telah mendaftar menjadi relawan
               </h3>
             </div>
 
