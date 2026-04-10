@@ -249,6 +249,7 @@ const Rate = () => {
       <ol>
         <li>Tiket pesawat</li>
         <li>Kebutuhan pribadi</li>
+        <li>Diving / snorkling</li>
       </ol>
     </>
   )
@@ -404,7 +405,9 @@ const ItineraryShort = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <strong>Diving / Snorkling</strong>
+                <strong>
+                  3x Diving / Snorkling <i>(dengan biaya tambahan)</i>
+                </strong>
               </a>
             </li>
             <li>
