@@ -338,7 +338,7 @@ export function RegistrationForm() {
       <ImageUploadField
         label="Upload bukti pendaftaran (DP Rp 1.695.000)"
         name="registration_proof"
-        className="required"
+        className="hidden"
       />
       <div className="col-span-full hidden font-bold italic text-red-500">
         Bukti pendaftaran (DP Rp 1.695.000) harap dikirimkan melalui IG{' '}

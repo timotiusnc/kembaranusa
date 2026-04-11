@@ -213,16 +213,33 @@ const Rate = () => {
   return (
     <>
       <h5 className="font-bold">Rp 5.650.000</h5>
+
+      {/* Selection Process Notice */}
+      <div className="my-4 rounded-lg border-l-4 border-yellow-500 bg-yellow-50 p-4">
+        <p className="m-0 font-semibold text-yellow-900">ℹ️ Catatan Penting</p>
+        <p className="m-0 mt-2 text-sm text-yellow-800">
+          Pendaftaran{' '}
+          <strong className="text-yellow-800">
+            tidak memerlukan pembayaran DP terlebih dahulu
+          </strong>
+          . Kandidat terpilih akan dihubungi untuk informasi pembayaran lebih
+          lanjut.
+        </p>
+      </div>
+
+      <p className="mb-2 font-semibold">
+        Struktur Pembayaran (untuk kandidat terpilih):
+      </p>
       <ul>
-        <li>DP 30% (Rp 1.695.000) saat pendaftaran</li>
+        <li>DP 30% (Rp 1.695.000) setelah konfirmasi seleksi</li>
         <li>Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H</li>
         <li>
           Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
           peserta lain
         </li>
         <li>
-          Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
-          <strong>Safira Khairina</strong>
+          Nomor tujuan transfer akan diberitahukan secara terpisah kepada
+          kandidat terpilih
         </li>
       </ul>
 
@@ -257,213 +274,211 @@ const Rate = () => {
 
 const ItineraryShort = () => {
   return (
-    <>
-      <div className="space-y-4">
-        <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">
-            Hari 1: Rabu, 22 Juli 2026
-          </h4>
-          <ul className="list-disc pl-5">
-            <li>
-              Tiba di{' '}
-              <a
-                href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
-              </a>
-            </li>
+    <div className="space-y-4">
+      <div className="rounded-lg bg-white p-4 shadow-sm">
+        <h4 className="mb-2 font-bold text-blue-600">
+          Hari 1: Rabu, 22 Juli 2026
+        </h4>
+        <ul className="list-disc pl-5">
+          <li>
+            Tiba di{' '}
+            <a
+              href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
+            </a>
+          </li>
 
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/RjZs3NLGe9ckEoym6"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Desa Takpala</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/grV975jd6U4dysb89"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Sunset Batu Putih</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">
-            Hari 2: Kamis, 23 Juli 2026
-          </h4>
-          <ul className="list-disc pl-5">
-            <li>
-              Bakti sosial di{' '}
-              <a
-                href="https://maps.app.goo.gl/8P6etWFJHxfzCn4u7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Desa Kokar, Kecamatan Alor Barat Laut</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/anuz8ThiSrAwjdvL7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Kabola</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/vxDm5kes1LkEnWS9A"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Al-Quran Tertua di Alor Besar</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/846HFRhgZPyMD4iq8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Hulnani</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/m3ZSmqGKVysRioW59"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Sunset Tongke Lima</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">
-            Hari 3: Jumat, 24 Juli 2026
-          </h4>
-          <ul className="list-disc pl-5">
-            <li>
-              Bakti sosial di{' '}
-              <a
-                href="https://maps.app.goo.gl/Z8SibUWj41asVtTc7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Posyandu Lipa B, Kecamatan Teluk Mutiara</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/PMm6Fc7mV3Xg8Dhq6"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Pantai Mali</strong>
-              </a>
-            </li>
-            <li>
-              Trip{' '}
-              <a
-                href="https://maps.app.goo.gl/2yWTVBt1XtMxU9qw8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Dugong (Mawardi)</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">
-            Hari 4: Sabtu, 25 Juli 2026
-          </h4>
-          <ul className="list-disc pl-5">
-            <li>
-              <a
-                href="https://maps.app.goo.gl/hoAmQYZFVqLt4V2w7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>
-                  3x Diving / Snorkling <i>(dengan biaya tambahan)</i>
-                </strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/1fmjsFxE6jRGfMZW7?g_st=iw"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Kain Tenun di Ternate</strong>
-              </a>{' '}
-              /{' '}
-              <a
-                href="https://maps.app.goo.gl/i4Zgn65k4ES9QzVn8"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Sopi Pura</strong>
-              </a>
-            </li>
-            <li>
-              Wisata{' '}
-              <a
-                href="https://maps.app.goo.gl/hoAmQYZFVqLt4V2w7"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Kepa / Alor Kecil</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="rounded-lg bg-white p-4 shadow-sm">
-          <h4 className="mb-2 font-bold text-blue-600">
-            Hari 5: Minggu, 26 Juli 2026
-          </h4>
-          <ul className="list-disc pl-5">
-            <li>
-              Berpisah di{' '}
-              <a
-                href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <p className="mt-4 text-sm italic text-gray-500">
-          *Lokasi wisata dapat berubah menyesuaikan kondisi
-        </p>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/RjZs3NLGe9ckEoym6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Desa Takpala</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/grV975jd6U4dysb89"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Sunset Batu Putih</strong>
+            </a>
+          </li>
+        </ul>
       </div>
-    </>
+
+      <div className="rounded-lg bg-white p-4 shadow-sm">
+        <h4 className="mb-2 font-bold text-blue-600">
+          Hari 2: Kamis, 23 Juli 2026
+        </h4>
+        <ul className="list-disc pl-5">
+          <li>
+            Bakti sosial di{' '}
+            <a
+              href="https://maps.app.goo.gl/8P6etWFJHxfzCn4u7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Desa Kokar, Kecamatan Alor Barat Laut</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/anuz8ThiSrAwjdvL7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Kabola</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/vxDm5kes1LkEnWS9A"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Al-Quran Tertua di Alor Besar</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/846HFRhgZPyMD4iq8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Hulnani</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/m3ZSmqGKVysRioW59"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Sunset Tongke Lima</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="rounded-lg bg-white p-4 shadow-sm">
+        <h4 className="mb-2 font-bold text-blue-600">
+          Hari 3: Jumat, 24 Juli 2026
+        </h4>
+        <ul className="list-disc pl-5">
+          <li>
+            Bakti sosial di{' '}
+            <a
+              href="https://maps.app.goo.gl/Z8SibUWj41asVtTc7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Posyandu Lipa B, Kecamatan Teluk Mutiara</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/PMm6Fc7mV3Xg8Dhq6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Pantai Mali</strong>
+            </a>
+          </li>
+          <li>
+            Trip{' '}
+            <a
+              href="https://maps.app.goo.gl/2yWTVBt1XtMxU9qw8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Dugong (Mawardi)</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="rounded-lg bg-white p-4 shadow-sm">
+        <h4 className="mb-2 font-bold text-blue-600">
+          Hari 4: Sabtu, 25 Juli 2026
+        </h4>
+        <ul className="list-disc pl-5">
+          <li>
+            <a
+              href="https://maps.app.goo.gl/hoAmQYZFVqLt4V2w7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>
+                3x Diving / Snorkling <i>(dengan biaya tambahan)</i>
+              </strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/1fmjsFxE6jRGfMZW7?g_st=iw"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Kain Tenun di Ternate</strong>
+            </a>{' '}
+            /{' '}
+            <a
+              href="https://maps.app.goo.gl/i4Zgn65k4ES9QzVn8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Sopi Pura</strong>
+            </a>
+          </li>
+          <li>
+            Wisata{' '}
+            <a
+              href="https://maps.app.goo.gl/hoAmQYZFVqLt4V2w7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Kepa / Alor Kecil</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="rounded-lg bg-white p-4 shadow-sm">
+        <h4 className="mb-2 font-bold text-blue-600">
+          Hari 5: Minggu, 26 Juli 2026
+        </h4>
+        <ul className="list-disc pl-5">
+          <li>
+            Berpisah di{' '}
+            <a
+              href="https://maps.app.goo.gl/14r6jFjKXpffUyF76"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Bandara Mali (ARD), Alor, Nusa Tenggara Timur</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p className="mt-4 text-sm italic text-gray-500">
+        *Lokasi wisata dapat berubah menyesuaikan kondisi
+      </p>
+    </div>
   )
 }
 
@@ -559,6 +574,7 @@ const ToBringList = () => {
         </li>
         <li>Topi</li>
         <li>Celana panjang bahan / jeans</li>
+        <li>Alat diving / snorkling</li>
         <li>Obat-obatan pribadi</li>
         <li>Uang tunai</li>
         <li>
