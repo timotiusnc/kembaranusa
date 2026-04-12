@@ -41,7 +41,7 @@ const sizes = [
 ]
 
 const RedStar = () => <span className="text-red-500">*</span>
-const isDefaultValue = true
+const isDefaultValue = false
 
 export function RegistrationForm() {
   const [state, formAction] = useActionState(createRegistration, null)
