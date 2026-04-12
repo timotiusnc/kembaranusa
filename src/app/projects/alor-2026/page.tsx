@@ -213,37 +213,20 @@ const Rate = () => {
   return (
     <>
       <h5 className="font-bold">Rp 5.650.000</h5>
-
-      {/* Selection Process Notice */}
-      <div className="my-4 rounded-lg border-l-4 border-yellow-500 bg-yellow-50 p-4">
-        <p className="m-0 font-semibold text-yellow-900">ℹ️ Catatan Penting</p>
-        <p className="m-0 mt-2 text-sm text-yellow-800">
-          Pendaftaran{' '}
-          <strong className="text-yellow-800">
-            tidak memerlukan pembayaran DP terlebih dahulu
-          </strong>
-          . Kandidat terpilih akan dihubungi untuk informasi pembayaran lebih
-          lanjut.
-        </p>
-      </div>
-
-      <p className="mb-2 font-semibold">
-        Struktur Pembayaran (untuk kandidat terpilih):
-      </p>
       <ul>
-        <li>DP 30% (Rp 1.695.000) setelah konfirmasi seleksi</li>
+        <li>DP 30% (Rp 1.695.000) saat pendaftaran</li>
         <li>Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H</li>
         <li>
           Semua pembayaran tidak dapat di-refund, namun dapat dialihkan ke
           peserta lain
         </li>
         <li>
-          Nomor tujuan transfer akan diberitahukan secara terpisah kepada
-          kandidat terpilih
+          Transfer ke <strong>BCA 6330751132</strong> a.n.{' '}
+          <strong>Safira Khairina</strong>
         </li>
       </ul>
 
-      <p className="font-bold italic">Include:</p>
+      <p className="mt-4 font-bold italic">Include:</p>
       <ol>
         <li>Akomodasi 5 hari 4 malam</li>
         <li>Transportasi</li>
@@ -260,9 +243,10 @@ const Rate = () => {
           <span className="italic">Local guide</span>
         </li>
         <li>Tiket masuk tempat wisata</li>
+        <li>T-Shirt</li>
       </ol>
 
-      <p className="font-bold italic">Exclude:</p>
+      <p className="mt-4 font-bold italic">Exclude:</p>
       <ol>
         <li>Tiket pesawat</li>
         <li>Kebutuhan pribadi</li>
@@ -629,8 +613,8 @@ const Faqs = () => {
           </strong>
         </p>
         <p>
-          Bisa, untuk pendaftaran baksos saja harap menghubungi nomor{' '}
-          <em>contact person</em> (CP) yang tertera.
+          Bisa, pilih paket <strong>Bakti Sosial Only</strong> di halaman{' '}
+          pendaftaran.
         </p>
       </li>
     </ol>

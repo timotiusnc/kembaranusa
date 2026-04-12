@@ -59,39 +59,27 @@ export default function Register() {
               </p>
             </div>
 
-            {/* Selection Process Notice */}
-            <div className="mt-6 rounded-lg border-l-4 border-yellow-500 bg-yellow-50 p-4">
-              <p className="font-semibold text-yellow-900">
-                ℹ️ Catatan Penting
-              </p>
-              <p className="mt-2 text-sm text-yellow-800">
-                Pendaftaran{' '}
-                <strong>tidak memerlukan pembayaran DP terlebih dahulu</strong>.
-                Kandidat terpilih akan dihubungi untuk informasi pembayaran
-                lebih lanjut.
-              </p>
-            </div>
-
             <div className="mt-6">
-              <div>
-                💰 <span className="italic">Rate</span>:{' '}
-                <strong>Rp 5.650.000 / pax</strong>
+              <div className="mb-2">
+                💰 <span className="italic">Rate</span>:
               </div>
-              <p className="mt-2 font-semibold">
-                Struktur Pembayaran (untuk kandidat terpilih):
-              </p>
               <ul>
-                <li>• DP 30% (Rp 1.695.000) setelah konfirmasi seleksi</li>
                 <li>
-                  • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
+                  • Bakti Sosial + Trip: <strong>Rp 5.650.000</strong> (DP 30%
+                  saat pendaftaran; pelunasan maks. 14 hari sebelum
+                  keberangkatan)
+                </li>
+                <li>
+                  • Bakti Sosial Only: <strong>Rp 450.000</strong> (pembayaran
+                  penuh saat pendaftaran)
                 </li>
                 <li>
                   • Semua pembayaran tidak dapat di-refund, namun dapat
                   dialihkan ke peserta lain
                 </li>
                 <li>
-                  • Nomor tujuan transfer akan diberitahukan secara terpisah
-                  kepada kandidat terpilih
+                  • Nomor tujuan transfer:{' '}
+                  <strong>BCA 6330751132 a.n. Safira Khairina</strong>
                 </li>
               </ul>
             </div>

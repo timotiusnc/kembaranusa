@@ -26,13 +26,12 @@ export default function Thank() {
               </h2>
 
               <h3 className="mt-4 font-display text-xl tracking-tight text-gray-700 sm:text-2xl md:text-3xl">
-                Aplikasi Anda berhasil dikirim!
+                Pendaftaran Anda berhasil!
               </h3>
 
               <p className="mt-4 text-lg text-gray-600">
-                Terima kasih atas minat Anda untuk bergabung dalam perjalanan
-                bakti sosial dan explore <strong>Alor 2026</strong> bersama
-                kami!
+                Kami sangat senang Anda bergabung dalam perjalanan bakti sosial
+                dan explore <strong>Alor 2026</strong> bersama kami!
               </p>
             </div>
 
@@ -44,16 +43,13 @@ export default function Thank() {
                 </h4>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
-                    <span className="mr-2">✅</span>
+                    <span className="mr-2">💰</span>
                     <span>
-                      Aplikasi Anda telah kami terima dan sedang kami proses
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2">📧</span>
-                    <span>
-                      <strong>Kandidat terpilih</strong> akan dihubungi oleh tim
-                      kami untuk proses seleksi lebih lanjut
+                      Pelunasan 70% dilakukan{' '}
+                      <strong>
+                        14 hari sebelum keberangkatan (bagi peserta Baksos +
+                        Trip)
+                      </strong>
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -78,7 +74,7 @@ export default function Thank() {
             {/* Closing Message */}
             <div className="mt-10 text-center">
               <p className="text-2xl font-semibold text-gray-800">
-                Semoga berjumpa di Alor! 🌴✨
+                Sampai bertemu di Alor! 🌴✨
               </p>
               <p className="mt-2 text-lg text-gray-600">22-26 Juli 2026</p>
             </div>
