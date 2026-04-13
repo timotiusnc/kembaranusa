@@ -15,8 +15,8 @@ const sexs = [
 ]
 
 const volunteers = [
-  { id: 'dokter-gigi', title: 'Dokter gigi' },
-  // { id: 'dokter-umum', title: 'Dokter umum' },
+  { id: 'dokter-gigi', title: 'Dokter Gigi Umum' },
+  { id: 'dokter-gigi-spesialis', title: 'Dokter Gigi Spesialis' },
   { id: 'non-medis', title: 'Non-medis' },
 ]
 
@@ -46,6 +46,7 @@ const isDefaultValue = false
 export function RegistrationForm() {
   const [state, formAction] = useActionState(createRegistration, null)
   const [paymentType, setPaymentType] = useState('full-package')
+  const [volunteerType, setVolunteerType] = useState('')
 
   return (
     <form
@@ -150,25 +151,71 @@ export function RegistrationForm() {
           Volunteer <RedStar />
         </legend>
         <div className="space-y-6">
-          {volunteers.map((volunteer) => (
-            <div key={volunteer.id} className="flex items-center">
-              <input
-                defaultChecked={isDefaultValue}
-                id={volunteer.id}
-                value={volunteer.id}
-                name="volunteer"
-                type="radio"
-                className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                required
-              />
+          <div className="flex items-center">
+            <input
+              defaultChecked={isDefaultValue}
+              id="dokter-gigi"
+              value="dokter-gigi"
+              name="volunteer"
+              type="radio"
+              className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              required
+              onChange={(e) => setVolunteerType(e.target.value)}
+            />
+            <label
+              htmlFor="dokter-gigi"
+              className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+            >
+              Dokter Gigi Umum
+            </label>
+          </div>
+
+          <div className="flex items-start">
+            <input
+              id="dokter-gigi-spesialis"
+              value="dokter-gigi-spesialis"
+              name="volunteer"
+              type="radio"
+              className="mt-1 h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              required
+              onChange={(e) => setVolunteerType(e.target.value)}
+            />
+            <div className="ml-3 flex-1">
               <label
-                htmlFor={volunteer.id}
-                className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+                htmlFor="dokter-gigi-spesialis"
+                className="block text-sm font-medium leading-6 text-gray-900"
               >
-                {volunteer.title}
+                Dokter Gigi Spesialis
               </label>
+              {volunteerType === 'dokter-gigi-spesialis' && (
+                <input
+                  name="specialist_detail"
+                  type="text"
+                  placeholder="Pedodonti, Ortodonti, Periodonsia, Prostodonsia, Penyakit Mulut, Bedah Mulut, Konservasi Gigi, Radiologi, atau lainnya"
+                  required
+                  className={clsx(formClasses, 'mt-2')}
+                />
+              )}
             </div>
-          ))}
+          </div>
+
+          <div className="flex items-center">
+            <input
+              id="non-medis"
+              value="non-medis"
+              name="volunteer"
+              type="radio"
+              className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              required
+              onChange={(e) => setVolunteerType(e.target.value)}
+            />
+            <label
+              htmlFor="non-medis"
+              className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+            >
+              Non-medis
+            </label>
+          </div>
         </div>
       </fieldset>
 

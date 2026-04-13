@@ -65,6 +65,7 @@ const getRegistrationData = (formData: FormData) => {
     date_of_birth: formData.get('date_of_birth'),
     job: formData.get('job'),
     volunteer: formData.get('volunteer'),
+    specialist_detail: formData.get('specialist_detail'),
     volunteer_interest_penyuluhan: formData.get(
       'volunteer_interest_penyuluhan',
     ),
@@ -108,6 +109,7 @@ const getRegistrationDataForSheet = (
     registrationData.date_of_birth,
     registrationData.job,
     registrationData.volunteer,
+    registrationData.specialist_detail,
     registrationData.volunteer_interest_penyuluhan,
     registrationData.volunteer_interest_perawatan_gigi_anak,
     registrationData.volunteer_interest_konservasi,
