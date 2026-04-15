@@ -17,6 +17,7 @@ const sexs = [
 const volunteers = [
   { id: 'dokter-gigi', title: 'Dokter Gigi Umum' },
   { id: 'dokter-gigi-spesialis', title: 'Dokter Gigi Spesialis' },
+  { id: 'dokter-umum', title: 'Dokter Umum' },
   { id: 'non-medis', title: 'Non-medis' },
 ]
 
@@ -81,8 +82,8 @@ export function RegistrationForm() {
       />
       <TextField
         className="col-span-full"
-        label="Nomor Pokok Anggota (NPA) PDGI"
-        desc="(diisi oleh relawan dokter gigi saja untuk keperluan SKP)"
+        label="Nomor Pokok Anggota (NPA) PDGI / IDI"
+        desc="(diisi oleh relawan medis untuk keperluan SKP)"
         name="npa_pdgi"
         type="text"
         defaultValue={isDefaultValue ? '1234567890' : ''}
@@ -197,6 +198,24 @@ export function RegistrationForm() {
                 />
               )}
             </div>
+          </div>
+
+          <div className="flex items-center">
+            <input
+              id="dokter-umum"
+              value="dokter-umum"
+              name="volunteer"
+              type="radio"
+              className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              required
+              onChange={(e) => setVolunteerType(e.target.value)}
+            />
+            <label
+              htmlFor="dokter-umum"
+              className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+            >
+              Dokter Umum
+            </label>
           </div>
 
           <div className="flex items-center">

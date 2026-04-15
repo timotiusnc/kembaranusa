@@ -538,7 +538,7 @@ const Flight = () => {
 const ToBringList = () => {
   return (
     <>
-      <h4>Dokter Gigi</h4>
+      <h4>Dokter Gigi & Dokter Umum</h4>
       <ol>
         <li>Sneli (jas dokter lengan panjang / pendek)</li>
         <li>Scrub 1 pasang (warna bebas)</li>
@@ -580,7 +580,7 @@ const Faqs = () => {
         </p>
         <p>
           Ya, baksos ini mendapat SKP Kemenkes untuk semua tenaga medis (dokter
-          gigi, perawat).
+          umum, dokter gigi, perawat).
         </p>
       </li>
 
@@ -601,8 +601,8 @@ const Faqs = () => {
           </strong>
         </p>
         <p>
-          Mohon maaf, untuk baksos Alor 2026 ini kami tidak membuka pendaftaran
-          untuk relawan dokter umum.
+          Ya, baksos Alor 2026 terbuka untuk relawan dokter umum dan akan
+          mendapat SKP Kemenkes.
         </p>
       </li>
       <li>
