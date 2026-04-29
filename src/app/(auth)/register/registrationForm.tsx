@@ -46,7 +46,6 @@ const isDefaultValue = false
 
 export function RegistrationForm() {
   const [state, formAction] = useActionState(createRegistration, null)
-  const [paymentType, setPaymentType] = useState('full-package')
   const [volunteerType, setVolunteerType] = useState('')
 
   return (
@@ -402,61 +401,8 @@ export function RegistrationForm() {
         </div>
       </fieldset>
 
-      <fieldset className="col-span-full">
-        <legend className="mb-3 block text-sm font-medium text-gray-700">
-          Paket Pendaftaran <RedStar />
-        </legend>
-        <div className="space-y-6">
-          <div className="flex items-center">
-            <input
-              defaultChecked={true}
-              id="full-package"
-              value="full-package"
-              name="payment_type"
-              type="radio"
-              className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-              required
-              onChange={(e) => setPaymentType(e.target.value)}
-            />
-            <label
-              htmlFor="full-package"
-              className="ml-3 block text-sm font-medium leading-6 text-gray-900"
-            >
-              Bakti Sosial + Trip (Rp 5.650.000)
-            </label>
-          </div>
-          <div className="flex items-start">
-            <input
-              id="baksos-only"
-              value="baksos-only"
-              name="payment_type"
-              type="radio"
-              className="mt-1 h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-              required
-              onChange={(e) => setPaymentType(e.target.value)}
-            />
-            <div className="ml-3">
-              <label
-                htmlFor="baksos-only"
-                className="block text-sm font-medium leading-6 text-gray-900"
-              >
-                Bakti Sosial Only (Rp 450.000)
-              </label>
-              <p className="mt-1 text-xs italic text-gray-600">
-                Termasuk: T-Shirt, SKP, makan siang, snack, transportasi lokal,
-                dan donasi bakti sosial
-              </p>
-            </div>
-          </div>
-        </div>
-      </fieldset>
-
       <ImageUploadField
-        label={
-          paymentType === 'full-package'
-            ? 'Upload bukti pendaftaran (DP Rp 1.695.000)'
-            : 'Upload bukti pendaftaran (Rp 450.000)'
-        }
+        label="Upload bukti pendaftaran (DP Rp 1.695.000)"
         name="registration_proof"
         className="required"
         required

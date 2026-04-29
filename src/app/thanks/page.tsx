@@ -46,10 +46,7 @@ export default function Thank() {
                     <span className="mr-2">💰</span>
                     <span>
                       Pelunasan 70% dilakukan{' '}
-                      <strong>
-                        14 hari sebelum keberangkatan (bagi peserta Baksos +
-                        Trip)
-                      </strong>
+                      <strong>14 hari sebelum keberangkatan</strong>
                     </span>
                   </li>
                   <li className="flex items-start">

@@ -60,18 +60,14 @@ export default function Register() {
             </div>
 
             <div className="mt-6">
-              <div className="mb-2">
-                💰 <span className="italic">Rate</span>:
+              <div>
+                💰 <span className="italic">Rate</span>:{' '}
+                <strong>Rp 5.650.000 / pax</strong>
               </div>
               <ul>
+                <li>• DP 30% (Rp 1.695.000) saat pendaftaran</li>
                 <li>
-                  • Bakti Sosial + Trip: <strong>Rp 5.650.000</strong> (DP 30%
-                  saat pendaftaran; pelunasan maks. 14 hari sebelum
-                  keberangkatan)
-                </li>
-                <li>
-                  • Bakti Sosial Only: <strong>Rp 450.000</strong> (pembayaran
-                  penuh saat pendaftaran)
+                  • Sisa 70% dilunasi paling lambat 14 hari sebelum hari-H
                 </li>
                 <li>
                   • Semua pembayaran tidak dapat di-refund, namun dapat

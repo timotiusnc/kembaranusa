@@ -605,18 +605,6 @@ const Faqs = () => {
           mendapat SKP Kemenkes.
         </p>
       </li>
-      <li>
-        <p className="italic">
-          <strong>
-            Saya ingin mengikuti baksos saja tanpa ikut jalan-jalan, apakah
-            bisa?
-          </strong>
-        </p>
-        <p>
-          Bisa, pilih paket <strong>Bakti Sosial Only</strong> di halaman{' '}
-          pendaftaran.
-        </p>
-      </li>
     </ol>
   )
 }
