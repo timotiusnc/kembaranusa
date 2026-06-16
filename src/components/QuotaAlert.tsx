@@ -19,7 +19,10 @@ export function QuotaAlert({ className = '' }: QuotaAlertProps) {
     <div
       className={`rounded-lg border-2 border-yellow-400 bg-yellow-50 p-4 text-center ${className}`}
     >
-      <p className="font-bold text-yellow-800">{volunteerQuota}</p>
+      <p
+        className="font-bold text-yellow-800"
+        dangerouslySetInnerHTML={{ __html: volunteerQuota }}
+      />
     </div>
   )
 }
