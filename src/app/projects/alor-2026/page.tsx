@@ -459,8 +459,18 @@ const ItineraryShort = () => {
         </ul>
       </div>
 
+      <p>
+        <a
+          href="https://maps.app.goo.gl/WkMz3y4APWmYyZy6A"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Google Maps list</strong>
+        </a>
+      </p>
+
       <p className="mt-4 text-sm italic text-gray-500">
-        *Lokasi wisata dapat berubah menyesuaikan kondisi
+        *) lokasi wisata dapat berubah menyesuaikan kondisi
       </p>
     </div>
   )
