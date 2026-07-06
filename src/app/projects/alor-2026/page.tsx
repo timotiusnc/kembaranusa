@@ -250,7 +250,7 @@ const Rate = () => {
       <ol>
         <li>Tiket pesawat</li>
         <li>Kebutuhan pribadi</li>
-        <li>Diving / snorkling</li>
+        <li><em>Water sport</em> (diving / snorkling)</li>
       </ol>
     </>
   )
@@ -559,6 +559,7 @@ const ToBringList = () => {
 
       <h4>Umum</h4>
       <ol>
+        <li>Kartu Identitas (KTP / <em>Passport</em>)</li>
         <li>Sepatu / sandal gunung tahan air</li>
         <ul>
           <li>Agar nyaman saat di pantai</li>
