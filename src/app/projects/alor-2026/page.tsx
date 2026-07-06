@@ -552,6 +552,9 @@ const ToBringList = () => {
       <ol>
         <li>Sneli (jas dokter lengan panjang / pendek)</li>
         <li>Scrub 1 pasang (warna bebas)</li>
+        <li><em>Head lamp</em></li>
+        <li>Instrumen standar (minimal 1 set) dan sudah diberi tanda pemilik masing-masing</li>
+        <li>Alat tulis (<em>ballpoint</em>)</li>
       </ol>
 
       <h4>Umum</h4>
@@ -561,16 +564,12 @@ const ToBringList = () => {
           <li>Agar nyaman saat di pantai</li>
         </ul>
         <li>
-          <em>Sunglasses</em>
+          Topi, <em>sunglasses</em>, <em>sunblock</em>
         </li>
-        <li>
-          <em>Sunblock</em>
-        </li>
-        <li>Topi</li>
         <li>Celana panjang bahan / jeans</li>
         <li>Alat diving / snorkling</li>
         <li>Obat-obatan pribadi</li>
-        <li>Uang tunai</li>
+        <li>Uang tunai (terutama jika ingin membeli kain di Desa Tenun)</li>
         <li>
           <em>Power bank</em>
         </li>
