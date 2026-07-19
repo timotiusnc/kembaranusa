@@ -111,11 +111,7 @@ export default function Register() {
                 Klik di sini untuk informasi lebih lanjut
               </a>
             </div>
-            {isRegistrationOpen ? (
-              <RegistrationForm />
-            ) : (
-              <RegistrationInPreparation />
-            )}
+            {isRegistrationOpen ? <RegistrationForm /> : <RegistrationClosed />}
           </Container>
         </section>
       </main>
@@ -132,7 +128,7 @@ const RegistrationClosed = () => {
         <br />
         Terima kasih untuk antusiasme para volunteer ❤️.
         <br />
-        Sampai bertemu di Lombok 👋.
+        Sampai bertemu di Alor 👋.
       </h3>
     </div>
   )
